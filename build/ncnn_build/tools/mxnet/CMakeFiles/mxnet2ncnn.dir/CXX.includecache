@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/mxnet/mxnet2ncnn.cpp
+stdio.h
+-
+stdint.h
+-
+string.h
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
