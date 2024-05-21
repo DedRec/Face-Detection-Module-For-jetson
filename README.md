@@ -5,6 +5,8 @@
 ```bash
 git clone https://github.com/DedRec/Face-Detection-Module-For-jetson.git
 
+cd Face-Detection-Module-For-jetson/
+
 mkdir build && cd build && cmake ..
 make -j$(nproc)
 ```
