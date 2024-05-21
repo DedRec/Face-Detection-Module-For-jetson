@@ -6,6 +6,7 @@
 git clone https://github.com/DedRec/Face-Detection-Module-For-jetson.git
 
 cd Face-Detection-Module-For-jetson/
+rm -r build
 
 mkdir build && cd build && cmake ..
 make -j$(nproc)
