@@ -3,9 +3,7 @@
 ## Build
 
 ```bash
-git clone --recursive --depth=1 https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
-
-cd Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+git clone https://github.com/DedRec/Face-Detection-Module-For-jetson.git
 
 mkdir build && cd build && cmake ..
 make -j$(nproc)
