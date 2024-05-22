@@ -11,5 +11,5 @@ ncnn_build/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o
  ../3rdparty/ncnn/src/option.h
  ../3rdparty/ncnn/src/paramdict.h
  ../3rdparty/ncnn/src/pipeline.h
- /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnn2mem.cpp
+ /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/ncnn2mem.cpp
  ncnn_build/src/platform.h

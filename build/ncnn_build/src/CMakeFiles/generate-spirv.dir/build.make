@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+CMAKE_SOURCE_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build
+CMAKE_BINARY_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson/build
 
 # Utility rule file for generate-spirv.
 
@@ -63,10 +63,10 @@ ncnn_build/src/CMakeFiles/generate-spirv.dir/build: generate-spirv
 .PHONY : ncnn_build/src/CMakeFiles/generate-spirv.dir/build
 
 ncnn_build/src/CMakeFiles/generate-spirv.dir/clean:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/generate-spirv.dir/cmake_clean.cmake
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/generate-spirv.dir/cmake_clean.cmake
 .PHONY : ncnn_build/src/CMakeFiles/generate-spirv.dir/clean
 
 ncnn_build/src/CMakeFiles/generate-spirv.dir/depend:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/generate-spirv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Downloads/Face-Detection-Module-For-jetson /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src /home/jetson/Downloads/Face-Detection-Module-For-jetson/build /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/generate-spirv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/src/CMakeFiles/generate-spirv.dir/depend
 

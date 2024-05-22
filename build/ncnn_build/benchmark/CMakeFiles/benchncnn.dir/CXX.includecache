@@ -160,7 +160,7 @@ vulkan/vulkan.h
 gpu.h
 ../3rdparty/ncnn/src/gpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/benchncnn.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/benchmark/benchncnn.cpp
 float.h
 -
 stdio.h
@@ -172,13 +172,13 @@ windows.h
 unistd.h
 -
 benchmark.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/benchmark.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/benchmark/benchmark.h
 cpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/benchmark/cpu.h
 net.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/net.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/benchmark/net.h
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/benchmark/gpu.h
 
 ncnn_build/src/platform.h
 windows.h

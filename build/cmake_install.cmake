@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+# Install script for directory: /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/cmake_install.cmake")
+  include("/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

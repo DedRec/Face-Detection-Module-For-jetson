@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+CMAKE_SOURCE_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build
+CMAKE_BINARY_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson/build
 
 # Include any dependencies generated for this target.
 include ncnn_build/src/CMakeFiles/ncnn.dir/depend.make
@@ -59,16 +59,16 @@ include ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o: ../3rdparty/ncnn/src/allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/allocator.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp > CMakeFiles/ncnn.dir/allocator.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.cpp > CMakeFiles/ncnn.dir/allocator.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/allocator.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp -o CMakeFiles/ncnn.dir/allocator.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.cpp -o CMakeFiles/ncnn.dir/allocator.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o.requires:
 
@@ -83,16 +83,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o: ../3rdparty/ncnn/src/blob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/blob.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/blob.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/blob.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp > CMakeFiles/ncnn.dir/blob.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.cpp > CMakeFiles/ncnn.dir/blob.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/blob.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp -o CMakeFiles/ncnn.dir/blob.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.cpp -o CMakeFiles/ncnn.dir/blob.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o.requires:
 
@@ -107,16 +107,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o.provides.build: ncnn_build/src/CMa
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o: ../3rdparty/ncnn/src/command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/command.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/command.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/command.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp > CMakeFiles/ncnn.dir/command.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.cpp > CMakeFiles/ncnn.dir/command.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/command.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp -o CMakeFiles/ncnn.dir/command.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.cpp -o CMakeFiles/ncnn.dir/command.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o.requires:
 
@@ -131,16 +131,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o.provides.build: ncnn_build/src/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o: ../3rdparty/ncnn/src/cpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/cpu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp > CMakeFiles/ncnn.dir/cpu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.cpp > CMakeFiles/ncnn.dir/cpu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/cpu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp -o CMakeFiles/ncnn.dir/cpu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.cpp -o CMakeFiles/ncnn.dir/cpu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o.requires:
 
@@ -155,16 +155,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o.provides.build: ncnn_build/src/CMak
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o: ../3rdparty/ncnn/src/gpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/gpu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp > CMakeFiles/ncnn.dir/gpu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.cpp > CMakeFiles/ncnn.dir/gpu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/gpu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp -o CMakeFiles/ncnn.dir/gpu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.cpp -o CMakeFiles/ncnn.dir/gpu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o.requires:
 
@@ -179,16 +179,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o.provides.build: ncnn_build/src/CMak
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o: ../3rdparty/ncnn/src/layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp > CMakeFiles/ncnn.dir/layer.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.cpp > CMakeFiles/ncnn.dir/layer.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp -o CMakeFiles/ncnn.dir/layer.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.cpp -o CMakeFiles/ncnn.dir/layer.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o.requires:
 
@@ -203,16 +203,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o.provides.build: ncnn_build/src/CM
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o: ../3rdparty/ncnn/src/mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp > CMakeFiles/ncnn.dir/mat.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.cpp > CMakeFiles/ncnn.dir/mat.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp -o CMakeFiles/ncnn.dir/mat.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.cpp -o CMakeFiles/ncnn.dir/mat.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o.requires:
 
@@ -227,16 +227,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o.provides.build: ncnn_build/src/CMak
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o: ../3rdparty/ncnn/src/mat_pixel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp > CMakeFiles/ncnn.dir/mat_pixel.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel.cpp > CMakeFiles/ncnn.dir/mat_pixel.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp -o CMakeFiles/ncnn.dir/mat_pixel.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel.cpp -o CMakeFiles/ncnn.dir/mat_pixel.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o.requires:
 
@@ -251,16 +251,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o: ../3rdparty/ncnn/src/mat_pixel_resize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel_resize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp > CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel_resize.cpp > CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel_resize.cpp -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o.requires:
 
@@ -275,16 +275,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o: ../3rdparty/ncnn/src/modelbin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/modelbin.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp > CMakeFiles/ncnn.dir/modelbin.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.cpp > CMakeFiles/ncnn.dir/modelbin.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/modelbin.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp -o CMakeFiles/ncnn.dir/modelbin.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.cpp -o CMakeFiles/ncnn.dir/modelbin.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o.requires:
 
@@ -299,16 +299,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o.provides.build: ncnn_build/src
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o: ../3rdparty/ncnn/src/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/net.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/net.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/net.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp > CMakeFiles/ncnn.dir/net.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.cpp > CMakeFiles/ncnn.dir/net.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/net.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp -o CMakeFiles/ncnn.dir/net.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.cpp -o CMakeFiles/ncnn.dir/net.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o.requires:
 
@@ -323,16 +323,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o.provides.build: ncnn_build/src/CMak
 
 ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o: ../3rdparty/ncnn/src/opencv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/opencv.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/opencv.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/opencv.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp > CMakeFiles/ncnn.dir/opencv.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.cpp > CMakeFiles/ncnn.dir/opencv.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/opencv.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp -o CMakeFiles/ncnn.dir/opencv.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.cpp -o CMakeFiles/ncnn.dir/opencv.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o.requires:
 
@@ -347,16 +347,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o.provides.build: ncnn_build/src/C
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o: ../3rdparty/ncnn/src/option.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/option.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/option.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/option.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp > CMakeFiles/ncnn.dir/option.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.cpp > CMakeFiles/ncnn.dir/option.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/option.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp -o CMakeFiles/ncnn.dir/option.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.cpp -o CMakeFiles/ncnn.dir/option.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o.requires:
 
@@ -371,16 +371,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o.provides.build: ncnn_build/src/C
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o: ../3rdparty/ncnn/src/paramdict.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/paramdict.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp > CMakeFiles/ncnn.dir/paramdict.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.cpp > CMakeFiles/ncnn.dir/paramdict.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/paramdict.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp -o CMakeFiles/ncnn.dir/paramdict.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.cpp -o CMakeFiles/ncnn.dir/paramdict.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o.requires:
 
@@ -395,16 +395,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o: ../3rdparty/ncnn/src/pipeline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/pipeline.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp > CMakeFiles/ncnn.dir/pipeline.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.cpp > CMakeFiles/ncnn.dir/pipeline.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/pipeline.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp -o CMakeFiles/ncnn.dir/pipeline.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.cpp -o CMakeFiles/ncnn.dir/pipeline.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o.requires:
 
@@ -419,16 +419,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o.provides.build: ncnn_build/src
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o: ../3rdparty/ncnn/src/benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/benchmark.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp > CMakeFiles/ncnn.dir/benchmark.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.cpp > CMakeFiles/ncnn.dir/benchmark.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/benchmark.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp -o CMakeFiles/ncnn.dir/benchmark.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.cpp -o CMakeFiles/ncnn.dir/benchmark.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o.requires:
 
@@ -443,16 +443,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o: ../3rdparty/ncnn/src/layer/absval.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/absval.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp > CMakeFiles/ncnn.dir/layer/absval.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.cpp > CMakeFiles/ncnn.dir/layer/absval.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/absval.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp -o CMakeFiles/ncnn.dir/layer/absval.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.cpp -o CMakeFiles/ncnn.dir/layer/absval.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o.requires:
 
@@ -467,16 +467,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o.provides.build: ncnn_build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o: ../3rdparty/ncnn/src/layer/batchnorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp > CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.cpp > CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.cpp -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o.requires:
 
@@ -491,16 +491,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o.provides.build: ncnn_bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o: ../3rdparty/ncnn/src/layer/bias.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/bias.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp > CMakeFiles/ncnn.dir/layer/bias.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.cpp > CMakeFiles/ncnn.dir/layer/bias.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/bias.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp -o CMakeFiles/ncnn.dir/layer/bias.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.cpp -o CMakeFiles/ncnn.dir/layer/bias.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o.requires:
 
@@ -515,16 +515,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o: ../3rdparty/ncnn/src/layer/bnll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/bnll.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp > CMakeFiles/ncnn.dir/layer/bnll.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.cpp > CMakeFiles/ncnn.dir/layer/bnll.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/bnll.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp -o CMakeFiles/ncnn.dir/layer/bnll.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.cpp -o CMakeFiles/ncnn.dir/layer/bnll.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o.requires:
 
@@ -539,16 +539,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o: ../3rdparty/ncnn/src/layer/concat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/concat.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp > CMakeFiles/ncnn.dir/layer/concat.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.cpp > CMakeFiles/ncnn.dir/layer/concat.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/concat.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp -o CMakeFiles/ncnn.dir/layer/concat.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.cpp -o CMakeFiles/ncnn.dir/layer/concat.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o.requires:
 
@@ -563,16 +563,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o.provides.build: ncnn_build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o: ../3rdparty/ncnn/src/layer/convolution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/convolution.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp > CMakeFiles/ncnn.dir/layer/convolution.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.cpp > CMakeFiles/ncnn.dir/layer/convolution.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/convolution.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp -o CMakeFiles/ncnn.dir/layer/convolution.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.cpp -o CMakeFiles/ncnn.dir/layer/convolution.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o.requires:
 
@@ -587,16 +587,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o.provides.build: ncnn_
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o: ../3rdparty/ncnn/src/layer/x86/convolution_x86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp > CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp > CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp -o CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp -o CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o.requires:
 
@@ -611,16 +611,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o: ../3rdparty/ncnn/src/layer/crop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/crop.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp > CMakeFiles/ncnn.dir/layer/crop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.cpp > CMakeFiles/ncnn.dir/layer/crop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/crop.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp -o CMakeFiles/ncnn.dir/layer/crop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.cpp -o CMakeFiles/ncnn.dir/layer/crop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o.requires:
 
@@ -635,16 +635,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o: ../3rdparty/ncnn/src/layer/deconvolution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp > CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.cpp > CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.cpp -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o.requires:
 
@@ -659,16 +659,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o.provides.build: ncn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o: ../3rdparty/ncnn/src/layer/dropout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/dropout.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp > CMakeFiles/ncnn.dir/layer/dropout.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.cpp > CMakeFiles/ncnn.dir/layer/dropout.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/dropout.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp -o CMakeFiles/ncnn.dir/layer/dropout.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.cpp -o CMakeFiles/ncnn.dir/layer/dropout.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o.requires:
 
@@ -683,16 +683,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o: ../3rdparty/ncnn/src/layer/eltwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/eltwise.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp > CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.cpp > CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/eltwise.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.cpp -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o.requires:
 
@@ -707,16 +707,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o: ../3rdparty/ncnn/src/layer/elu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/elu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp > CMakeFiles/ncnn.dir/layer/elu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.cpp > CMakeFiles/ncnn.dir/layer/elu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/elu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp -o CMakeFiles/ncnn.dir/layer/elu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.cpp -o CMakeFiles/ncnn.dir/layer/elu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o.requires:
 
@@ -731,16 +731,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o: ../3rdparty/ncnn/src/layer/embed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/embed.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp > CMakeFiles/ncnn.dir/layer/embed.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.cpp > CMakeFiles/ncnn.dir/layer/embed.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/embed.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp -o CMakeFiles/ncnn.dir/layer/embed.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.cpp -o CMakeFiles/ncnn.dir/layer/embed.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o.requires:
 
@@ -755,16 +755,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o: ../3rdparty/ncnn/src/layer/exp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/exp.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp > CMakeFiles/ncnn.dir/layer/exp.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.cpp > CMakeFiles/ncnn.dir/layer/exp.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/exp.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp -o CMakeFiles/ncnn.dir/layer/exp.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.cpp -o CMakeFiles/ncnn.dir/layer/exp.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o.requires:
 
@@ -779,16 +779,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o: ../3rdparty/ncnn/src/layer/flatten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/flatten.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp > CMakeFiles/ncnn.dir/layer/flatten.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.cpp > CMakeFiles/ncnn.dir/layer/flatten.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/flatten.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp -o CMakeFiles/ncnn.dir/layer/flatten.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.cpp -o CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o.requires:
 
@@ -803,16 +803,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o: ../3rdparty/ncnn/src/layer/innerproduct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp > CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.cpp > CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.cpp -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o.requires:
 
@@ -827,16 +827,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o: ../3rdparty/ncnn/src/layer/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/input.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp > CMakeFiles/ncnn.dir/layer/input.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.cpp > CMakeFiles/ncnn.dir/layer/input.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/input.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp -o CMakeFiles/ncnn.dir/layer/input.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.cpp -o CMakeFiles/ncnn.dir/layer/input.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o.requires:
 
@@ -851,16 +851,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o: ../3rdparty/ncnn/src/layer/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/log.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp > CMakeFiles/ncnn.dir/layer/log.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.cpp > CMakeFiles/ncnn.dir/layer/log.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/log.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp -o CMakeFiles/ncnn.dir/layer/log.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.cpp -o CMakeFiles/ncnn.dir/layer/log.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o.requires:
 
@@ -875,16 +875,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o: ../3rdparty/ncnn/src/layer/lrn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/lrn.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp > CMakeFiles/ncnn.dir/layer/lrn.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.cpp > CMakeFiles/ncnn.dir/layer/lrn.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/lrn.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp -o CMakeFiles/ncnn.dir/layer/lrn.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.cpp -o CMakeFiles/ncnn.dir/layer/lrn.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o.requires:
 
@@ -899,16 +899,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o: ../3rdparty/ncnn/src/layer/memorydata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/memorydata.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp > CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.cpp > CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/memorydata.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.cpp -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o.requires:
 
@@ -923,16 +923,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o: ../3rdparty/ncnn/src/layer/mvn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/mvn.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp > CMakeFiles/ncnn.dir/layer/mvn.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.cpp > CMakeFiles/ncnn.dir/layer/mvn.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/mvn.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp -o CMakeFiles/ncnn.dir/layer/mvn.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.cpp -o CMakeFiles/ncnn.dir/layer/mvn.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o.requires:
 
@@ -947,16 +947,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o.provides.build: ncnn_build/sr
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o: ../3rdparty/ncnn/src/layer/pooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/pooling.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp > CMakeFiles/ncnn.dir/layer/pooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.cpp > CMakeFiles/ncnn.dir/layer/pooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/pooling.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp -o CMakeFiles/ncnn.dir/layer/pooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.cpp -o CMakeFiles/ncnn.dir/layer/pooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o.requires:
 
@@ -971,16 +971,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o: ../3rdparty/ncnn/src/layer/power.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/power.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp > CMakeFiles/ncnn.dir/layer/power.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.cpp > CMakeFiles/ncnn.dir/layer/power.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/power.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp -o CMakeFiles/ncnn.dir/layer/power.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.cpp -o CMakeFiles/ncnn.dir/layer/power.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o.requires:
 
@@ -995,16 +995,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o: ../3rdparty/ncnn/src/layer/prelu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/prelu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp > CMakeFiles/ncnn.dir/layer/prelu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.cpp > CMakeFiles/ncnn.dir/layer/prelu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/prelu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp -o CMakeFiles/ncnn.dir/layer/prelu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.cpp -o CMakeFiles/ncnn.dir/layer/prelu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o: ../3rdparty/ncnn/src/layer/proposal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/proposal.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp > CMakeFiles/ncnn.dir/layer/proposal.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.cpp > CMakeFiles/ncnn.dir/layer/proposal.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/proposal.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp -o CMakeFiles/ncnn.dir/layer/proposal.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.cpp -o CMakeFiles/ncnn.dir/layer/proposal.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o.requires:
 
@@ -1043,16 +1043,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o.provides.build: ncnn_bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o: ../3rdparty/ncnn/src/layer/reduction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reduction.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp > CMakeFiles/ncnn.dir/layer/reduction.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.cpp > CMakeFiles/ncnn.dir/layer/reduction.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reduction.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp -o CMakeFiles/ncnn.dir/layer/reduction.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.cpp -o CMakeFiles/ncnn.dir/layer/reduction.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o.requires:
 
@@ -1067,16 +1067,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o.provides.build: ncnn_bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o: ../3rdparty/ncnn/src/layer/relu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/relu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp > CMakeFiles/ncnn.dir/layer/relu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.cpp > CMakeFiles/ncnn.dir/layer/relu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/relu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp -o CMakeFiles/ncnn.dir/layer/relu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.cpp -o CMakeFiles/ncnn.dir/layer/relu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o.requires:
 
@@ -1091,16 +1091,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o: ../3rdparty/ncnn/src/layer/reshape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reshape.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp > CMakeFiles/ncnn.dir/layer/reshape.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.cpp > CMakeFiles/ncnn.dir/layer/reshape.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reshape.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp -o CMakeFiles/ncnn.dir/layer/reshape.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.cpp -o CMakeFiles/ncnn.dir/layer/reshape.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o.requires:
 
@@ -1115,16 +1115,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o: ../3rdparty/ncnn/src/layer/roipooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/roipooling.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp > CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.cpp > CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/roipooling.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.cpp -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o.requires:
 
@@ -1139,16 +1139,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o: ../3rdparty/ncnn/src/layer/scale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/scale.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp > CMakeFiles/ncnn.dir/layer/scale.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.cpp > CMakeFiles/ncnn.dir/layer/scale.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/scale.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp -o CMakeFiles/ncnn.dir/layer/scale.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.cpp -o CMakeFiles/ncnn.dir/layer/scale.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o.requires:
 
@@ -1163,16 +1163,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o: ../3rdparty/ncnn/src/layer/sigmoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp > CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.cpp > CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.cpp -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o.requires:
 
@@ -1187,16 +1187,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o: ../3rdparty/ncnn/src/layer/slice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/slice.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp > CMakeFiles/ncnn.dir/layer/slice.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.cpp > CMakeFiles/ncnn.dir/layer/slice.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/slice.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp -o CMakeFiles/ncnn.dir/layer/slice.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.cpp -o CMakeFiles/ncnn.dir/layer/slice.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o.requires:
 
@@ -1211,16 +1211,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o: ../3rdparty/ncnn/src/layer/softmax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/softmax.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp > CMakeFiles/ncnn.dir/layer/softmax.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.cpp > CMakeFiles/ncnn.dir/layer/softmax.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/softmax.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp -o CMakeFiles/ncnn.dir/layer/softmax.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.cpp -o CMakeFiles/ncnn.dir/layer/softmax.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o.requires:
 
@@ -1235,16 +1235,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o: ../3rdparty/ncnn/src/layer/split.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/split.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp > CMakeFiles/ncnn.dir/layer/split.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.cpp > CMakeFiles/ncnn.dir/layer/split.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/split.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp -o CMakeFiles/ncnn.dir/layer/split.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.cpp -o CMakeFiles/ncnn.dir/layer/split.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o.requires:
 
@@ -1259,16 +1259,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o: ../3rdparty/ncnn/src/layer/tanh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/tanh.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp > CMakeFiles/ncnn.dir/layer/tanh.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.cpp > CMakeFiles/ncnn.dir/layer/tanh.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/tanh.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp -o CMakeFiles/ncnn.dir/layer/tanh.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.cpp -o CMakeFiles/ncnn.dir/layer/tanh.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o.requires:
 
@@ -1283,16 +1283,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o: ../3rdparty/ncnn/src/layer/threshold.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/threshold.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp > CMakeFiles/ncnn.dir/layer/threshold.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.cpp > CMakeFiles/ncnn.dir/layer/threshold.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/threshold.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp -o CMakeFiles/ncnn.dir/layer/threshold.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.cpp -o CMakeFiles/ncnn.dir/layer/threshold.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o.requires:
 
@@ -1307,16 +1307,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o.provides.build: ncnn_bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o: ../3rdparty/ncnn/src/layer/binaryop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/binaryop.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp > CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.cpp > CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/binaryop.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.cpp -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o.requires:
 
@@ -1331,16 +1331,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o.provides.build: ncnn_bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o: ../3rdparty/ncnn/src/layer/unaryop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/unaryop.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp > CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.cpp > CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/unaryop.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.cpp -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o.requires:
 
@@ -1355,16 +1355,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o: ../3rdparty/ncnn/src/layer/convolutiondepthwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o.requires:
 
@@ -1379,16 +1379,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o.provides.bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o: ../3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp > CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp > CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp -o CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp -o CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o.requires:
 
@@ -1403,16 +1403,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o.prov
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o: ../3rdparty/ncnn/src/layer/padding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/padding.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp > CMakeFiles/ncnn.dir/layer/padding.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.cpp > CMakeFiles/ncnn.dir/layer/padding.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/padding.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp -o CMakeFiles/ncnn.dir/layer/padding.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.cpp -o CMakeFiles/ncnn.dir/layer/padding.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o.requires:
 
@@ -1427,16 +1427,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o: ../3rdparty/ncnn/src/layer/squeeze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/squeeze.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp > CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.cpp > CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/squeeze.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.cpp -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o.requires:
 
@@ -1451,16 +1451,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o: ../3rdparty/ncnn/src/layer/expanddims.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/expanddims.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp > CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.cpp > CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/expanddims.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.cpp -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o.requires:
 
@@ -1475,16 +1475,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o: ../3rdparty/ncnn/src/layer/normalize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/normalize.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp > CMakeFiles/ncnn.dir/layer/normalize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.cpp > CMakeFiles/ncnn.dir/layer/normalize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/normalize.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp -o CMakeFiles/ncnn.dir/layer/normalize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.cpp -o CMakeFiles/ncnn.dir/layer/normalize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o.requires:
 
@@ -1499,16 +1499,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o.provides.build: ncnn_bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o: ../3rdparty/ncnn/src/layer/permute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/permute.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp > CMakeFiles/ncnn.dir/layer/permute.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.cpp > CMakeFiles/ncnn.dir/layer/permute.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/permute.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp -o CMakeFiles/ncnn.dir/layer/permute.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.cpp -o CMakeFiles/ncnn.dir/layer/permute.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o.requires:
 
@@ -1523,16 +1523,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o: ../3rdparty/ncnn/src/layer/priorbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/priorbox.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp > CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.cpp > CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/priorbox.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.cpp -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o.requires:
 
@@ -1547,16 +1547,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o.provides.build: ncnn_bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o: ../3rdparty/ncnn/src/layer/detectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o.requires:
 
@@ -1571,16 +1571,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o.provides.build: n
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o: ../3rdparty/ncnn/src/layer/interp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/interp.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp > CMakeFiles/ncnn.dir/layer/interp.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.cpp > CMakeFiles/ncnn.dir/layer/interp.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/interp.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp -o CMakeFiles/ncnn.dir/layer/interp.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.cpp -o CMakeFiles/ncnn.dir/layer/interp.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o.requires:
 
@@ -1595,16 +1595,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o.provides.build: ncnn_build
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o: ../3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp > CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o.requires:
 
@@ -1619,16 +1619,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o.provides.b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o: ../3rdparty/ncnn/src/layer/shufflechannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp > CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.cpp > CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.cpp -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o.requires:
 
@@ -1643,16 +1643,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o.provides.build: nc
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o: ../3rdparty/ncnn/src/layer/instancenorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp > CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.cpp > CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.cpp -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.requires:
 
@@ -1667,16 +1667,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o: ../3rdparty/ncnn/src/layer/clip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/clip.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp > CMakeFiles/ncnn.dir/layer/clip.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.cpp > CMakeFiles/ncnn.dir/layer/clip.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/clip.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp -o CMakeFiles/ncnn.dir/layer/clip.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.cpp -o CMakeFiles/ncnn.dir/layer/clip.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o.requires:
 
@@ -1691,16 +1691,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o: ../3rdparty/ncnn/src/layer/reorg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/reorg.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp > CMakeFiles/ncnn.dir/layer/reorg.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.cpp > CMakeFiles/ncnn.dir/layer/reorg.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/reorg.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp -o CMakeFiles/ncnn.dir/layer/reorg.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.cpp -o CMakeFiles/ncnn.dir/layer/reorg.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o.requires:
 
@@ -1715,16 +1715,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o.provides.build: ncnn_build/
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o: ../3rdparty/ncnn/src/layer/yolodetectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o.requires:
 
@@ -1739,16 +1739,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o.provides.buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o: ../3rdparty/ncnn/src/layer/quantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/quantize.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp > CMakeFiles/ncnn.dir/layer/quantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.cpp > CMakeFiles/ncnn.dir/layer/quantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/quantize.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp -o CMakeFiles/ncnn.dir/layer/quantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.cpp -o CMakeFiles/ncnn.dir/layer/quantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o.requires:
 
@@ -1763,16 +1763,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o.provides.build: ncnn_bui
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o: ../3rdparty/ncnn/src/layer/dequantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/dequantize.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp > CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.cpp > CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/dequantize.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.cpp -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o.requires:
 
@@ -1787,16 +1787,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o: ../3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp > CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o.requires:
 
@@ -1811,16 +1811,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o.provides.bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o: ../3rdparty/ncnn/src/layer/psroipooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp > CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.cpp > CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.cpp -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o.requires:
 
@@ -1835,16 +1835,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o.provides.build: ncnn
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o: ../3rdparty/ncnn/src/layer/packing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/packing.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp > CMakeFiles/ncnn.dir/layer/packing.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.cpp > CMakeFiles/ncnn.dir/layer/packing.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/packing.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp -o CMakeFiles/ncnn.dir/layer/packing.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.cpp -o CMakeFiles/ncnn.dir/layer/packing.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o.requires:
 
@@ -1859,16 +1859,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o.provides.build: ncnn_buil
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o: ../3rdparty/ncnn/src/layer/requantize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/requantize.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp > CMakeFiles/ncnn.dir/layer/requantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.cpp > CMakeFiles/ncnn.dir/layer/requantize.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/requantize.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp -o CMakeFiles/ncnn.dir/layer/requantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.cpp -o CMakeFiles/ncnn.dir/layer/requantize.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o.requires:
 
@@ -1883,16 +1883,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o.provides.build: ncnn_b
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o: ../3rdparty/ncnn/src/layer/cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/cast.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp > CMakeFiles/ncnn.dir/layer/cast.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.cpp > CMakeFiles/ncnn.dir/layer/cast.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/cast.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp -o CMakeFiles/ncnn.dir/layer/cast.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.cpp -o CMakeFiles/ncnn.dir/layer/cast.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o.requires:
 
@@ -1907,16 +1907,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o: ../3rdparty/ncnn/src/layer/hardsigmoid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp > CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.cpp > CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.cpp -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o.requires:
 
@@ -1931,16 +1931,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o.provides.build: ncnn_
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o: ../3rdparty/ncnn/src/layer/selu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/selu.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp > CMakeFiles/ncnn.dir/layer/selu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.cpp > CMakeFiles/ncnn.dir/layer/selu.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/selu.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp -o CMakeFiles/ncnn.dir/layer/selu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.cpp -o CMakeFiles/ncnn.dir/layer/selu.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o.requires:
 
@@ -1955,16 +1955,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o.provides.build: ncnn_build/s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o: ../3rdparty/ncnn/src/layer/hardswish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/hardswish.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp > CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.cpp > CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/hardswish.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.cpp -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o.requires:
 
@@ -1979,16 +1979,16 @@ ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o.provides.build: ncnn_bu
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o: ncnn_build/src/CMakeFiles/ncnn.dir/flags.make
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o: ../3rdparty/ncnn/src/layer/noop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.cpp
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ncnn.dir/layer/noop.cpp.i"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp > CMakeFiles/ncnn.dir/layer/noop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.cpp > CMakeFiles/ncnn.dir/layer/noop.cpp.i
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ncnn.dir/layer/noop.cpp.s"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp -o CMakeFiles/ncnn.dir/layer/noop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.cpp -o CMakeFiles/ncnn.dir/layer/noop.cpp.s
 
 ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o.requires:
 
@@ -2171,9 +2171,9 @@ ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/build.make
 ncnn_build/src/libncnn.a: ncnn_build/src/CMakeFiles/ncnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX static library libncnn.a"
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean_target.cmake
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX static library libncnn.a"
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean_target.cmake
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ncnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ncnn_build/src/CMakeFiles/ncnn.dir/build: ncnn_build/src/libncnn.a
@@ -2265,10 +2265,10 @@ ncnn_build/src/CMakeFiles/ncnn.dir/requires: ncnn_build/src/CMakeFiles/ncnn.dir/
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/requires
 
 ncnn_build/src/CMakeFiles/ncnn.dir/clean:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean.cmake
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src && $(CMAKE_COMMAND) -P CMakeFiles/ncnn.dir/cmake_clean.cmake
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/clean
 
 ncnn_build/src/CMakeFiles/ncnn.dir/depend:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Downloads/Face-Detection-Module-For-jetson /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src /home/jetson/Downloads/Face-Detection-Module-For-jetson/build /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/depend
 

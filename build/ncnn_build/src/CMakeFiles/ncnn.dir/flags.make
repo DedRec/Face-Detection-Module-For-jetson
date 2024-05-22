@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffas
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src -I/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer 
+CXX_INCLUDES = -I/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src -I/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src -I/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer 
 

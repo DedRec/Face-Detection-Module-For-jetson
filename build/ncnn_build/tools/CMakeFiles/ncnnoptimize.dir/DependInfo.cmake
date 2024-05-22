@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnnoptimize.cpp" "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o"
+  "/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/ncnnoptimize.cpp" "/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
+  "/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/ncnn.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

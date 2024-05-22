@@ -13,8 +13,8 @@ CMakeFiles/main.dir/src/UltraFace.cpp.o
  ../3rdparty/ncnn/src/option.h
  ../3rdparty/ncnn/src/paramdict.h
  ../3rdparty/ncnn/src/pipeline.h
- /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.cpp
- /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.hpp
+ /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.cpp
+ /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.hpp
  ncnn_build/src/platform.h
 CMakeFiles/main.dir/src/main.cpp.o
  ../3rdparty/ncnn/src/allocator.h
@@ -28,6 +28,6 @@ CMakeFiles/main.dir/src/main.cpp.o
  ../3rdparty/ncnn/src/option.h
  ../3rdparty/ncnn/src/paramdict.h
  ../3rdparty/ncnn/src/pipeline.h
- /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.hpp
- /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/main.cpp
+ /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.hpp
+ /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/main.cpp
  ncnn_build/src/platform.h

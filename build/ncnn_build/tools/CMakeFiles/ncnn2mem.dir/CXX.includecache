@@ -126,7 +126,7 @@ vulkan/vulkan.h
 gpu.h
 ../3rdparty/ncnn/src/gpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnn2mem.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/ncnn2mem.cpp
 ctype.h
 -
 stdio.h
@@ -140,7 +140,7 @@ string
 vector
 -
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/layer.h
 
 ncnn_build/src/platform.h
 windows.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+CMAKE_SOURCE_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build
+CMAKE_BINARY_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/tools/mxnet/CMakeFiles/progress.marks
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles 0
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/tools/mxnet/CMakeFiles/progress.marks
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/clean
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/preinstall
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/preinstall
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
 .PHONY : ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ mxnet2ncnn: ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
 
 # fast build rule for target.
 mxnet2ncnn/fast:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
 .PHONY : mxnet2ncnn/fast
 
 mxnet2ncnn.o: mxnet2ncnn.cpp.o
@@ -177,7 +177,7 @@ mxnet2ncnn.o: mxnet2ncnn.cpp.o
 
 # target to build an object file
 mxnet2ncnn.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o
 .PHONY : mxnet2ncnn.cpp.o
 
 mxnet2ncnn.i: mxnet2ncnn.cpp.i
@@ -186,7 +186,7 @@ mxnet2ncnn.i: mxnet2ncnn.cpp.i
 
 # target to preprocess a source file
 mxnet2ncnn.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.i
 .PHONY : mxnet2ncnn.cpp.i
 
 mxnet2ncnn.s: mxnet2ncnn.cpp.s
@@ -195,7 +195,7 @@ mxnet2ncnn.s: mxnet2ncnn.cpp.s
 
 # target to generate assembly for a file
 mxnet2ncnn.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.s
 .PHONY : mxnet2ncnn.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

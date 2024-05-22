@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+CMAKE_SOURCE_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build
+CMAKE_BINARY_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/src/main.cpp.o.provides.build: CMakeFiles/main.dir/src/main.
 
 CMakeFiles/main.dir/src/UltraFace.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/UltraFace.cpp.o: ../src/UltraFace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/UltraFace.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/UltraFace.cpp.o -c /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/UltraFace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/UltraFace.cpp.o -c /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.cpp
 
 CMakeFiles/main.dir/src/UltraFace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/UltraFace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.cpp > CMakeFiles/main.dir/src/UltraFace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.cpp > CMakeFiles/main.dir/src/UltraFace.cpp.i
 
 CMakeFiles/main.dir/src/UltraFace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/UltraFace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.cpp -o CMakeFiles/main.dir/src/UltraFace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.cpp -o CMakeFiles/main.dir/src/UltraFace.cpp.s
 
 CMakeFiles/main.dir/src/UltraFace.cpp.o.requires:
 
@@ -161,7 +161,7 @@ main: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 main: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 main: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +179,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/Downloads/Face-Detection-Module-For-jetson /home/jetson/Downloads/Face-Detection-Module-For-jetson /home/jetson/Downloads/Face-Detection-Module-For-jetson/build /home/jetson/Downloads/Face-Detection-Module-For-jetson/build /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

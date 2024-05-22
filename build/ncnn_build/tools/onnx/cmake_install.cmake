@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/onnx
+# Install script for directory: /home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/onnx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

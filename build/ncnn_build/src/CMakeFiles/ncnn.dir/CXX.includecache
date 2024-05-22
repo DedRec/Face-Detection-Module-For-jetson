@@ -398,17 +398,17 @@ vulkan/vulkan.h
 gpu.h
 ../3rdparty/ncnn/src/gpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.cpp
 allocator.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.h
 stdio.h
 -
 algorithm
 -
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.h
 windows.h
 -
 pthread.h
@@ -420,75 +420,75 @@ list
 vector
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 vulkan/vulkan.h
 -
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 intrin.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.cpp
 windows.h
 -
 sys/time.h
 -
 benchmark.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.h
 stdio.h
 -
 layer/convolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.h
 layer/convolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.h
 layer/deconvolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.h
 layer/deconvolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.cpp
 blob.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.h
 string
 -
 vector
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.cpp
 command.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.h
 stdio.h
 -
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 vector
 -
 vulkan/vulkan.h
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 pipeline.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.cpp
 cpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h
 stdio.h
 -
 string.h
@@ -504,7 +504,7 @@ unistd.h
 stdint.h
 -
 TargetConditionals.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/TargetConditionals.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/TargetConditionals.h
 sys/types.h
 -
 sys/sysctl.h
@@ -512,11 +512,11 @@ sys/sysctl.h
 mach/machine.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.cpp
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 vulkan/vulkan.h
 -
 math.h
@@ -532,23 +532,23 @@ string
 vector
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 layer_shader_spv_data.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_shader_spv_data.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_shader_spv_data.h
 layer_shader_registry.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_shader_registry.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_shader_registry.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 vulkan/vulkan.h
 -
 vector
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.cpp
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h
 math.h
 -
 stdio.h
@@ -558,13 +558,13 @@ string.h
 algorithm
 -
 cpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h
 layer_declaration.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_declaration.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_declaration.h
 layer_registry.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_registry.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_registry.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h
 stdio.h
 -
 string
@@ -574,51 +574,51 @@ vector
 math.h
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 modelbin.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.h
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 paramdict.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.h
 vulkan/vulkan.h
 -
 command.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.h
 pipeline.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.cpp
 absval.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/absval.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.cpp
 batchnorm.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/batchnorm.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.cpp
 bias.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bias.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.cpp
 binaryop.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.h
 math.h
 -
 algorithm
@@ -626,379 +626,379 @@ algorithm
 functional
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/binaryop.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.cpp
 bnll.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/bnll.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.cpp
 cast.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/cast.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.cpp
 clip.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.h
 float.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/clip.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.cpp
 concat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/concat.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.cpp
 convolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.h
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolution.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp
 convolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.h
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/convolutiondepthwise.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.cpp
 crop.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/crop.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.cpp
 deconvolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.h
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolution.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp
 deconvolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/deconvolutiondepthwise.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.cpp
 dequantize.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dequantize.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.cpp
 detectionoutput.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.h
 algorithm
 -
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/detectionoutput.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.cpp
 dropout.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/dropout.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.cpp
 eltwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/eltwise.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.cpp
 elu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/elu.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.cpp
 embed.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.h
 string.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/embed.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.cpp
 exp.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/exp.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.cpp
 expanddims.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/expanddims.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.cpp
 flatten.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/flatten.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.cpp
 hardsigmoid.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardsigmoid.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.cpp
 hardswish.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/hardswish.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.cpp
 innerproduct.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.h
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/innerproduct.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.cpp
 input.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/input.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.cpp
 instancenorm.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/instancenorm.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.cpp
 interp.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/interp.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.cpp
 log.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/log.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.cpp
 lrn.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/lrn.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.cpp
 memorydata.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/memorydata.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.cpp
 mvn.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/mvn.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.cpp
 noop.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/noop.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.cpp
 normalize.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/normalize.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.cpp
 packing.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/packing.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.cpp
 padding.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/padding.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.cpp
 permute.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/permute.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.cpp
 pooling.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.h
 float.h
 -
 algorithm
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/pooling.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.cpp
 power.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/power.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.cpp
 prelu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/prelu.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.cpp
 priorbox.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.h
 algorithm
 -
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/priorbox.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.cpp
 proposal.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.h
 math.h
 -
 algorithm
@@ -1006,35 +1006,35 @@ algorithm
 vector
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/proposal.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.cpp
 psroipooling.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.h
 math.h
 -
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/psroipooling.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.cpp
 quantize.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/quantize.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.cpp
 reduction.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.h
 float.h
 -
 limits.h
@@ -1046,105 +1046,105 @@ algorithm
 functional
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reduction.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.cpp
 relu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/relu.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.cpp
 reorg.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reorg.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.cpp
 requantize.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/requantize.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.cpp
 reshape.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/reshape.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.cpp
 roipooling.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.h
 math.h
 -
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/roipooling.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.cpp
 scale.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/scale.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.cpp
 selu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/selu.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.cpp
 shufflechannel.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/shufflechannel.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.cpp
 sigmoid.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/sigmoid.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.cpp
 slice.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/slice.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.cpp
 softmax.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.h
 float.h
 -
 math.h
@@ -1152,181 +1152,181 @@ math.h
 algorithm
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/softmax.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.cpp
 split.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/split.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.cpp
 squeeze.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/squeeze.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.cpp
 tanh.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.h
 math.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/tanh.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.cpp
 threshold.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/threshold.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.cpp
 unaryop.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.h
 math.h
 -
 functional
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/unaryop.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_1x1.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_1x1.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_1x1_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_1x1_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_3x3.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_3x3.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_3x3_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_3x3_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_5x5.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_5x5.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_5x5_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_5x5_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_7x7.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_7x7.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_7x7_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_7x7_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_sgemm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_sgemm.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_sgemm_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_sgemm_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.cpp
 convolution_x86.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/platform.h
 emmintrin.h
 -
 immintrin.h
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/layer_type.h
 benchmark.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/benchmark.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/benchmark.h
 convolution_sgemm.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_sgemm.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_sgemm.h
 convolution_1x1.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_1x1.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_1x1.h
 convolution_3x3.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_3x3.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_3x3.h
 convolution_5x5.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_5x5.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_5x5.h
 convolution_7x7.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_7x7.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_7x7.h
 convolution_sgemm_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_sgemm_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_sgemm_int8.h
 convolution_1x1_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_1x1_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_1x1_int8.h
 convolution_3x3_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_3x3_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_3x3_int8.h
 convolution_5x5_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_5x5_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_5x5_int8.h
 convolution_7x7_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_7x7_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_7x7_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution_x86.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution_x86.h
 convolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolution.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp
 convolutiondepthwise_x86.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.h
 omp.h
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/layer_type.h
 convolutiondepthwise_3x3.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3.h
 convolutiondepthwise_3x3_int8.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise_x86.h
 convolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/x86/convolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/x86/convolutiondepthwise.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp
 yolodetectionoutput.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.h
 algorithm
 -
 math.h
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolodetectionoutput.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp
 yolov3detectionoutput.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.h
 algorithm
 -
 math.h
 -
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer_type.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/yolov3detectionoutput.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_type.h
 layer_type_enum.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_type_enum.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_type_enum.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.cpp
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 arm_neon.h
 -
 math.h
 -
 cpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_type.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 stdio.h
 -
 stdlib.h
@@ -1336,13 +1336,13 @@ string.h
 arm_neon.h
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 allocator.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.h
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 vulkan/vulkan.h
 -
 jni.h
@@ -1350,9 +1350,9 @@ jni.h
 android/bitmap.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel.cpp
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 limits.h
 -
 math.h
@@ -1362,11 +1362,11 @@ algorithm
 arm_neon.h
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat_pixel_resize.cpp
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 limits.h
 -
 math.h
@@ -1376,11 +1376,11 @@ algorithm
 arm_neon.h
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.cpp
 modelbin.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.h
 stdio.h
 -
 string.h
@@ -1388,31 +1388,31 @@ string.h
 vector
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.h
 stdio.h
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.cpp
 net.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.h
 layer_type.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_type.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_type.h
 modelbin.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.h
 paramdict.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.h
 convolution.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/convolution.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/convolution.h
 convolutiondepthwise.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/convolutiondepthwise.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/convolutiondepthwise.h
 relu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/relu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/relu.h
 stdarg.h
 -
 stdio.h
@@ -1424,53 +1424,53 @@ stdint.h
 omp.h
 -
 benchmark.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.h
 command.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.h
 stdio.h
 -
 vector
 -
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 blob.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.h
 layer.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.cpp
 opencv.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.h
 stdio.h
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 algorithm
 -
 string
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.cpp
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 cpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.cpp
 ctype.h
 -
 stdarg.h
@@ -1478,21 +1478,21 @@ stdarg.h
 stdio.h
 -
 paramdict.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.h
 stdio.h
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.cpp
 pipeline.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.h
 stdio.h
 -
 math.h
@@ -1502,19 +1502,19 @@ algorithm
 string
 -
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 option.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.h
 platform.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/platform.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/platform.h
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h
 vulkan/vulkan.h
 -
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h
 
 ncnn_build/src/layer_declaration.h
 layer/absval.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/mxnet/mxnet2ncnn.cpp" "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o"
+  "/home/jetson/Downloads/Face-Detection-Module-For-jetson/3rdparty/ncnn/tools/mxnet/mxnet2ncnn.cpp" "/home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn
+CMAKE_SOURCE_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build
+CMAKE_BINARY_DIR = /home/jetson/Downloads/Face-Detection-Module-For-jetson/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/progress.marks
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/CMakeFiles 0
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/progress.marks
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Downloads/Face-Detection-Module-For-jetson/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/clean
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ncnn_build/src/CMakeFiles/ncnn.dir/rule:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/rule
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/rule
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ncnn: ncnn_build/src/CMakeFiles/ncnn.dir/rule
 
 # fast build rule for target.
 ncnn/fast:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/build
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/build
 .PHONY : ncnn/fast
 
 # Convenience name for target.
 ncnn_build/src/CMakeFiles/generate-spirv.dir/rule:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
 .PHONY : ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ generate-spirv: ncnn_build/src/CMakeFiles/generate-spirv.dir/rule
 
 # fast build rule for target.
 generate-spirv/fast:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/generate-spirv.dir/build
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/generate-spirv.dir/build.make ncnn_build/src/CMakeFiles/generate-spirv.dir/build
 .PHONY : generate-spirv/fast
 
 allocator.o: allocator.cpp.o
@@ -192,7 +192,7 @@ allocator.o: allocator.cpp.o
 
 # target to build an object file
 allocator.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.o
 .PHONY : allocator.cpp.o
 
 allocator.i: allocator.cpp.i
@@ -201,7 +201,7 @@ allocator.i: allocator.cpp.i
 
 # target to preprocess a source file
 allocator.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.i
 .PHONY : allocator.cpp.i
 
 allocator.s: allocator.cpp.s
@@ -210,7 +210,7 @@ allocator.s: allocator.cpp.s
 
 # target to generate assembly for a file
 allocator.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/allocator.cpp.s
 .PHONY : allocator.cpp.s
 
 benchmark.o: benchmark.cpp.o
@@ -219,7 +219,7 @@ benchmark.o: benchmark.cpp.o
 
 # target to build an object file
 benchmark.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
 .PHONY : benchmark.cpp.o
 
 benchmark.i: benchmark.cpp.i
@@ -228,7 +228,7 @@ benchmark.i: benchmark.cpp.i
 
 # target to preprocess a source file
 benchmark.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.i
 .PHONY : benchmark.cpp.i
 
 benchmark.s: benchmark.cpp.s
@@ -237,7 +237,7 @@ benchmark.s: benchmark.cpp.s
 
 # target to generate assembly for a file
 benchmark.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
 blob.o: blob.cpp.o
@@ -246,7 +246,7 @@ blob.o: blob.cpp.o
 
 # target to build an object file
 blob.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.o
 .PHONY : blob.cpp.o
 
 blob.i: blob.cpp.i
@@ -255,7 +255,7 @@ blob.i: blob.cpp.i
 
 # target to preprocess a source file
 blob.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.i
 .PHONY : blob.cpp.i
 
 blob.s: blob.cpp.s
@@ -264,7 +264,7 @@ blob.s: blob.cpp.s
 
 # target to generate assembly for a file
 blob.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/blob.cpp.s
 .PHONY : blob.cpp.s
 
 command.o: command.cpp.o
@@ -273,7 +273,7 @@ command.o: command.cpp.o
 
 # target to build an object file
 command.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.o
 .PHONY : command.cpp.o
 
 command.i: command.cpp.i
@@ -282,7 +282,7 @@ command.i: command.cpp.i
 
 # target to preprocess a source file
 command.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.i
 .PHONY : command.cpp.i
 
 command.s: command.cpp.s
@@ -291,7 +291,7 @@ command.s: command.cpp.s
 
 # target to generate assembly for a file
 command.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/command.cpp.s
 .PHONY : command.cpp.s
 
 cpu.o: cpu.cpp.o
@@ -300,7 +300,7 @@ cpu.o: cpu.cpp.o
 
 # target to build an object file
 cpu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.o
 .PHONY : cpu.cpp.o
 
 cpu.i: cpu.cpp.i
@@ -309,7 +309,7 @@ cpu.i: cpu.cpp.i
 
 # target to preprocess a source file
 cpu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.i
 .PHONY : cpu.cpp.i
 
 cpu.s: cpu.cpp.s
@@ -318,7 +318,7 @@ cpu.s: cpu.cpp.s
 
 # target to generate assembly for a file
 cpu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/cpu.cpp.s
 .PHONY : cpu.cpp.s
 
 gpu.o: gpu.cpp.o
@@ -327,7 +327,7 @@ gpu.o: gpu.cpp.o
 
 # target to build an object file
 gpu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.o
 .PHONY : gpu.cpp.o
 
 gpu.i: gpu.cpp.i
@@ -336,7 +336,7 @@ gpu.i: gpu.cpp.i
 
 # target to preprocess a source file
 gpu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.i
 .PHONY : gpu.cpp.i
 
 gpu.s: gpu.cpp.s
@@ -345,7 +345,7 @@ gpu.s: gpu.cpp.s
 
 # target to generate assembly for a file
 gpu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/gpu.cpp.s
 .PHONY : gpu.cpp.s
 
 layer.o: layer.cpp.o
@@ -354,7 +354,7 @@ layer.o: layer.cpp.o
 
 # target to build an object file
 layer.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.o
 .PHONY : layer.cpp.o
 
 layer.i: layer.cpp.i
@@ -363,7 +363,7 @@ layer.i: layer.cpp.i
 
 # target to preprocess a source file
 layer.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.i
 .PHONY : layer.cpp.i
 
 layer.s: layer.cpp.s
@@ -372,7 +372,7 @@ layer.s: layer.cpp.s
 
 # target to generate assembly for a file
 layer.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer.cpp.s
 .PHONY : layer.cpp.s
 
 layer/absval.o: layer/absval.cpp.o
@@ -381,7 +381,7 @@ layer/absval.o: layer/absval.cpp.o
 
 # target to build an object file
 layer/absval.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
 .PHONY : layer/absval.cpp.o
 
 layer/absval.i: layer/absval.cpp.i
@@ -390,7 +390,7 @@ layer/absval.i: layer/absval.cpp.i
 
 # target to preprocess a source file
 layer/absval.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.i
 .PHONY : layer/absval.cpp.i
 
 layer/absval.s: layer/absval.cpp.s
@@ -399,7 +399,7 @@ layer/absval.s: layer/absval.cpp.s
 
 # target to generate assembly for a file
 layer/absval.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.s
 .PHONY : layer/absval.cpp.s
 
 layer/batchnorm.o: layer/batchnorm.cpp.o
@@ -408,7 +408,7 @@ layer/batchnorm.o: layer/batchnorm.cpp.o
 
 # target to build an object file
 layer/batchnorm.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
 .PHONY : layer/batchnorm.cpp.o
 
 layer/batchnorm.i: layer/batchnorm.cpp.i
@@ -417,7 +417,7 @@ layer/batchnorm.i: layer/batchnorm.cpp.i
 
 # target to preprocess a source file
 layer/batchnorm.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.i
 .PHONY : layer/batchnorm.cpp.i
 
 layer/batchnorm.s: layer/batchnorm.cpp.s
@@ -426,7 +426,7 @@ layer/batchnorm.s: layer/batchnorm.cpp.s
 
 # target to generate assembly for a file
 layer/batchnorm.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.s
 .PHONY : layer/batchnorm.cpp.s
 
 layer/bias.o: layer/bias.cpp.o
@@ -435,7 +435,7 @@ layer/bias.o: layer/bias.cpp.o
 
 # target to build an object file
 layer/bias.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
 .PHONY : layer/bias.cpp.o
 
 layer/bias.i: layer/bias.cpp.i
@@ -444,7 +444,7 @@ layer/bias.i: layer/bias.cpp.i
 
 # target to preprocess a source file
 layer/bias.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.i
 .PHONY : layer/bias.cpp.i
 
 layer/bias.s: layer/bias.cpp.s
@@ -453,7 +453,7 @@ layer/bias.s: layer/bias.cpp.s
 
 # target to generate assembly for a file
 layer/bias.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.s
 .PHONY : layer/bias.cpp.s
 
 layer/binaryop.o: layer/binaryop.cpp.o
@@ -462,7 +462,7 @@ layer/binaryop.o: layer/binaryop.cpp.o
 
 # target to build an object file
 layer/binaryop.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
 .PHONY : layer/binaryop.cpp.o
 
 layer/binaryop.i: layer/binaryop.cpp.i
@@ -471,7 +471,7 @@ layer/binaryop.i: layer/binaryop.cpp.i
 
 # target to preprocess a source file
 layer/binaryop.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.i
 .PHONY : layer/binaryop.cpp.i
 
 layer/binaryop.s: layer/binaryop.cpp.s
@@ -480,7 +480,7 @@ layer/binaryop.s: layer/binaryop.cpp.s
 
 # target to generate assembly for a file
 layer/binaryop.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.s
 .PHONY : layer/binaryop.cpp.s
 
 layer/bnll.o: layer/bnll.cpp.o
@@ -489,7 +489,7 @@ layer/bnll.o: layer/bnll.cpp.o
 
 # target to build an object file
 layer/bnll.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
 .PHONY : layer/bnll.cpp.o
 
 layer/bnll.i: layer/bnll.cpp.i
@@ -498,7 +498,7 @@ layer/bnll.i: layer/bnll.cpp.i
 
 # target to preprocess a source file
 layer/bnll.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.i
 .PHONY : layer/bnll.cpp.i
 
 layer/bnll.s: layer/bnll.cpp.s
@@ -507,7 +507,7 @@ layer/bnll.s: layer/bnll.cpp.s
 
 # target to generate assembly for a file
 layer/bnll.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.s
 .PHONY : layer/bnll.cpp.s
 
 layer/cast.o: layer/cast.cpp.o
@@ -516,7 +516,7 @@ layer/cast.o: layer/cast.cpp.o
 
 # target to build an object file
 layer/cast.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
 .PHONY : layer/cast.cpp.o
 
 layer/cast.i: layer/cast.cpp.i
@@ -525,7 +525,7 @@ layer/cast.i: layer/cast.cpp.i
 
 # target to preprocess a source file
 layer/cast.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.i
 .PHONY : layer/cast.cpp.i
 
 layer/cast.s: layer/cast.cpp.s
@@ -534,7 +534,7 @@ layer/cast.s: layer/cast.cpp.s
 
 # target to generate assembly for a file
 layer/cast.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.s
 .PHONY : layer/cast.cpp.s
 
 layer/clip.o: layer/clip.cpp.o
@@ -543,7 +543,7 @@ layer/clip.o: layer/clip.cpp.o
 
 # target to build an object file
 layer/clip.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
 .PHONY : layer/clip.cpp.o
 
 layer/clip.i: layer/clip.cpp.i
@@ -552,7 +552,7 @@ layer/clip.i: layer/clip.cpp.i
 
 # target to preprocess a source file
 layer/clip.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.i
 .PHONY : layer/clip.cpp.i
 
 layer/clip.s: layer/clip.cpp.s
@@ -561,7 +561,7 @@ layer/clip.s: layer/clip.cpp.s
 
 # target to generate assembly for a file
 layer/clip.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.s
 .PHONY : layer/clip.cpp.s
 
 layer/concat.o: layer/concat.cpp.o
@@ -570,7 +570,7 @@ layer/concat.o: layer/concat.cpp.o
 
 # target to build an object file
 layer/concat.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
 .PHONY : layer/concat.cpp.o
 
 layer/concat.i: layer/concat.cpp.i
@@ -579,7 +579,7 @@ layer/concat.i: layer/concat.cpp.i
 
 # target to preprocess a source file
 layer/concat.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.i
 .PHONY : layer/concat.cpp.i
 
 layer/concat.s: layer/concat.cpp.s
@@ -588,7 +588,7 @@ layer/concat.s: layer/concat.cpp.s
 
 # target to generate assembly for a file
 layer/concat.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.s
 .PHONY : layer/concat.cpp.s
 
 layer/convolution.o: layer/convolution.cpp.o
@@ -597,7 +597,7 @@ layer/convolution.o: layer/convolution.cpp.o
 
 # target to build an object file
 layer/convolution.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
 .PHONY : layer/convolution.cpp.o
 
 layer/convolution.i: layer/convolution.cpp.i
@@ -606,7 +606,7 @@ layer/convolution.i: layer/convolution.cpp.i
 
 # target to preprocess a source file
 layer/convolution.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.i
 .PHONY : layer/convolution.cpp.i
 
 layer/convolution.s: layer/convolution.cpp.s
@@ -615,7 +615,7 @@ layer/convolution.s: layer/convolution.cpp.s
 
 # target to generate assembly for a file
 layer/convolution.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.s
 .PHONY : layer/convolution.cpp.s
 
 layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
@@ -624,7 +624,7 @@ layer/convolutiondepthwise.o: layer/convolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/convolutiondepthwise.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
 .PHONY : layer/convolutiondepthwise.cpp.o
 
 layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
@@ -633,7 +633,7 @@ layer/convolutiondepthwise.i: layer/convolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/convolutiondepthwise.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.i
 .PHONY : layer/convolutiondepthwise.cpp.i
 
 layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
@@ -642,7 +642,7 @@ layer/convolutiondepthwise.s: layer/convolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/convolutiondepthwise.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.s
 .PHONY : layer/convolutiondepthwise.cpp.s
 
 layer/crop.o: layer/crop.cpp.o
@@ -651,7 +651,7 @@ layer/crop.o: layer/crop.cpp.o
 
 # target to build an object file
 layer/crop.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
 .PHONY : layer/crop.cpp.o
 
 layer/crop.i: layer/crop.cpp.i
@@ -660,7 +660,7 @@ layer/crop.i: layer/crop.cpp.i
 
 # target to preprocess a source file
 layer/crop.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.i
 .PHONY : layer/crop.cpp.i
 
 layer/crop.s: layer/crop.cpp.s
@@ -669,7 +669,7 @@ layer/crop.s: layer/crop.cpp.s
 
 # target to generate assembly for a file
 layer/crop.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.s
 .PHONY : layer/crop.cpp.s
 
 layer/deconvolution.o: layer/deconvolution.cpp.o
@@ -678,7 +678,7 @@ layer/deconvolution.o: layer/deconvolution.cpp.o
 
 # target to build an object file
 layer/deconvolution.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
 .PHONY : layer/deconvolution.cpp.o
 
 layer/deconvolution.i: layer/deconvolution.cpp.i
@@ -687,7 +687,7 @@ layer/deconvolution.i: layer/deconvolution.cpp.i
 
 # target to preprocess a source file
 layer/deconvolution.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.i
 .PHONY : layer/deconvolution.cpp.i
 
 layer/deconvolution.s: layer/deconvolution.cpp.s
@@ -696,7 +696,7 @@ layer/deconvolution.s: layer/deconvolution.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolution.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.s
 .PHONY : layer/deconvolution.cpp.s
 
 layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
@@ -705,7 +705,7 @@ layer/deconvolutiondepthwise.o: layer/deconvolutiondepthwise.cpp.o
 
 # target to build an object file
 layer/deconvolutiondepthwise.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
 .PHONY : layer/deconvolutiondepthwise.cpp.o
 
 layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
@@ -714,7 +714,7 @@ layer/deconvolutiondepthwise.i: layer/deconvolutiondepthwise.cpp.i
 
 # target to preprocess a source file
 layer/deconvolutiondepthwise.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.i
 .PHONY : layer/deconvolutiondepthwise.cpp.i
 
 layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
@@ -723,7 +723,7 @@ layer/deconvolutiondepthwise.s: layer/deconvolutiondepthwise.cpp.s
 
 # target to generate assembly for a file
 layer/deconvolutiondepthwise.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.s
 .PHONY : layer/deconvolutiondepthwise.cpp.s
 
 layer/dequantize.o: layer/dequantize.cpp.o
@@ -732,7 +732,7 @@ layer/dequantize.o: layer/dequantize.cpp.o
 
 # target to build an object file
 layer/dequantize.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
 .PHONY : layer/dequantize.cpp.o
 
 layer/dequantize.i: layer/dequantize.cpp.i
@@ -741,7 +741,7 @@ layer/dequantize.i: layer/dequantize.cpp.i
 
 # target to preprocess a source file
 layer/dequantize.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.i
 .PHONY : layer/dequantize.cpp.i
 
 layer/dequantize.s: layer/dequantize.cpp.s
@@ -750,7 +750,7 @@ layer/dequantize.s: layer/dequantize.cpp.s
 
 # target to generate assembly for a file
 layer/dequantize.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.s
 .PHONY : layer/dequantize.cpp.s
 
 layer/detectionoutput.o: layer/detectionoutput.cpp.o
@@ -759,7 +759,7 @@ layer/detectionoutput.o: layer/detectionoutput.cpp.o
 
 # target to build an object file
 layer/detectionoutput.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
 .PHONY : layer/detectionoutput.cpp.o
 
 layer/detectionoutput.i: layer/detectionoutput.cpp.i
@@ -768,7 +768,7 @@ layer/detectionoutput.i: layer/detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/detectionoutput.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.i
 .PHONY : layer/detectionoutput.cpp.i
 
 layer/detectionoutput.s: layer/detectionoutput.cpp.s
@@ -777,7 +777,7 @@ layer/detectionoutput.s: layer/detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/detectionoutput.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.s
 .PHONY : layer/detectionoutput.cpp.s
 
 layer/dropout.o: layer/dropout.cpp.o
@@ -786,7 +786,7 @@ layer/dropout.o: layer/dropout.cpp.o
 
 # target to build an object file
 layer/dropout.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
 .PHONY : layer/dropout.cpp.o
 
 layer/dropout.i: layer/dropout.cpp.i
@@ -795,7 +795,7 @@ layer/dropout.i: layer/dropout.cpp.i
 
 # target to preprocess a source file
 layer/dropout.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.i
 .PHONY : layer/dropout.cpp.i
 
 layer/dropout.s: layer/dropout.cpp.s
@@ -804,7 +804,7 @@ layer/dropout.s: layer/dropout.cpp.s
 
 # target to generate assembly for a file
 layer/dropout.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.s
 .PHONY : layer/dropout.cpp.s
 
 layer/eltwise.o: layer/eltwise.cpp.o
@@ -813,7 +813,7 @@ layer/eltwise.o: layer/eltwise.cpp.o
 
 # target to build an object file
 layer/eltwise.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
 .PHONY : layer/eltwise.cpp.o
 
 layer/eltwise.i: layer/eltwise.cpp.i
@@ -822,7 +822,7 @@ layer/eltwise.i: layer/eltwise.cpp.i
 
 # target to preprocess a source file
 layer/eltwise.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.i
 .PHONY : layer/eltwise.cpp.i
 
 layer/eltwise.s: layer/eltwise.cpp.s
@@ -831,7 +831,7 @@ layer/eltwise.s: layer/eltwise.cpp.s
 
 # target to generate assembly for a file
 layer/eltwise.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.s
 .PHONY : layer/eltwise.cpp.s
 
 layer/elu.o: layer/elu.cpp.o
@@ -840,7 +840,7 @@ layer/elu.o: layer/elu.cpp.o
 
 # target to build an object file
 layer/elu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
 .PHONY : layer/elu.cpp.o
 
 layer/elu.i: layer/elu.cpp.i
@@ -849,7 +849,7 @@ layer/elu.i: layer/elu.cpp.i
 
 # target to preprocess a source file
 layer/elu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.i
 .PHONY : layer/elu.cpp.i
 
 layer/elu.s: layer/elu.cpp.s
@@ -858,7 +858,7 @@ layer/elu.s: layer/elu.cpp.s
 
 # target to generate assembly for a file
 layer/elu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.s
 .PHONY : layer/elu.cpp.s
 
 layer/embed.o: layer/embed.cpp.o
@@ -867,7 +867,7 @@ layer/embed.o: layer/embed.cpp.o
 
 # target to build an object file
 layer/embed.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
 .PHONY : layer/embed.cpp.o
 
 layer/embed.i: layer/embed.cpp.i
@@ -876,7 +876,7 @@ layer/embed.i: layer/embed.cpp.i
 
 # target to preprocess a source file
 layer/embed.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.i
 .PHONY : layer/embed.cpp.i
 
 layer/embed.s: layer/embed.cpp.s
@@ -885,7 +885,7 @@ layer/embed.s: layer/embed.cpp.s
 
 # target to generate assembly for a file
 layer/embed.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.s
 .PHONY : layer/embed.cpp.s
 
 layer/exp.o: layer/exp.cpp.o
@@ -894,7 +894,7 @@ layer/exp.o: layer/exp.cpp.o
 
 # target to build an object file
 layer/exp.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
 .PHONY : layer/exp.cpp.o
 
 layer/exp.i: layer/exp.cpp.i
@@ -903,7 +903,7 @@ layer/exp.i: layer/exp.cpp.i
 
 # target to preprocess a source file
 layer/exp.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.i
 .PHONY : layer/exp.cpp.i
 
 layer/exp.s: layer/exp.cpp.s
@@ -912,7 +912,7 @@ layer/exp.s: layer/exp.cpp.s
 
 # target to generate assembly for a file
 layer/exp.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.s
 .PHONY : layer/exp.cpp.s
 
 layer/expanddims.o: layer/expanddims.cpp.o
@@ -921,7 +921,7 @@ layer/expanddims.o: layer/expanddims.cpp.o
 
 # target to build an object file
 layer/expanddims.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
 .PHONY : layer/expanddims.cpp.o
 
 layer/expanddims.i: layer/expanddims.cpp.i
@@ -930,7 +930,7 @@ layer/expanddims.i: layer/expanddims.cpp.i
 
 # target to preprocess a source file
 layer/expanddims.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.i
 .PHONY : layer/expanddims.cpp.i
 
 layer/expanddims.s: layer/expanddims.cpp.s
@@ -939,7 +939,7 @@ layer/expanddims.s: layer/expanddims.cpp.s
 
 # target to generate assembly for a file
 layer/expanddims.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.s
 .PHONY : layer/expanddims.cpp.s
 
 layer/flatten.o: layer/flatten.cpp.o
@@ -948,7 +948,7 @@ layer/flatten.o: layer/flatten.cpp.o
 
 # target to build an object file
 layer/flatten.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
 .PHONY : layer/flatten.cpp.o
 
 layer/flatten.i: layer/flatten.cpp.i
@@ -957,7 +957,7 @@ layer/flatten.i: layer/flatten.cpp.i
 
 # target to preprocess a source file
 layer/flatten.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.i
 .PHONY : layer/flatten.cpp.i
 
 layer/flatten.s: layer/flatten.cpp.s
@@ -966,7 +966,7 @@ layer/flatten.s: layer/flatten.cpp.s
 
 # target to generate assembly for a file
 layer/flatten.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.s
 .PHONY : layer/flatten.cpp.s
 
 layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
@@ -975,7 +975,7 @@ layer/hardsigmoid.o: layer/hardsigmoid.cpp.o
 
 # target to build an object file
 layer/hardsigmoid.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
 .PHONY : layer/hardsigmoid.cpp.o
 
 layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
@@ -984,7 +984,7 @@ layer/hardsigmoid.i: layer/hardsigmoid.cpp.i
 
 # target to preprocess a source file
 layer/hardsigmoid.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.i
 .PHONY : layer/hardsigmoid.cpp.i
 
 layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
@@ -993,7 +993,7 @@ layer/hardsigmoid.s: layer/hardsigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/hardsigmoid.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.s
 .PHONY : layer/hardsigmoid.cpp.s
 
 layer/hardswish.o: layer/hardswish.cpp.o
@@ -1002,7 +1002,7 @@ layer/hardswish.o: layer/hardswish.cpp.o
 
 # target to build an object file
 layer/hardswish.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
 .PHONY : layer/hardswish.cpp.o
 
 layer/hardswish.i: layer/hardswish.cpp.i
@@ -1011,7 +1011,7 @@ layer/hardswish.i: layer/hardswish.cpp.i
 
 # target to preprocess a source file
 layer/hardswish.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.i
 .PHONY : layer/hardswish.cpp.i
 
 layer/hardswish.s: layer/hardswish.cpp.s
@@ -1020,7 +1020,7 @@ layer/hardswish.s: layer/hardswish.cpp.s
 
 # target to generate assembly for a file
 layer/hardswish.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.s
 .PHONY : layer/hardswish.cpp.s
 
 layer/innerproduct.o: layer/innerproduct.cpp.o
@@ -1029,7 +1029,7 @@ layer/innerproduct.o: layer/innerproduct.cpp.o
 
 # target to build an object file
 layer/innerproduct.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
 .PHONY : layer/innerproduct.cpp.o
 
 layer/innerproduct.i: layer/innerproduct.cpp.i
@@ -1038,7 +1038,7 @@ layer/innerproduct.i: layer/innerproduct.cpp.i
 
 # target to preprocess a source file
 layer/innerproduct.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.i
 .PHONY : layer/innerproduct.cpp.i
 
 layer/innerproduct.s: layer/innerproduct.cpp.s
@@ -1047,7 +1047,7 @@ layer/innerproduct.s: layer/innerproduct.cpp.s
 
 # target to generate assembly for a file
 layer/innerproduct.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.s
 .PHONY : layer/innerproduct.cpp.s
 
 layer/input.o: layer/input.cpp.o
@@ -1056,7 +1056,7 @@ layer/input.o: layer/input.cpp.o
 
 # target to build an object file
 layer/input.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
 .PHONY : layer/input.cpp.o
 
 layer/input.i: layer/input.cpp.i
@@ -1065,7 +1065,7 @@ layer/input.i: layer/input.cpp.i
 
 # target to preprocess a source file
 layer/input.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.i
 .PHONY : layer/input.cpp.i
 
 layer/input.s: layer/input.cpp.s
@@ -1074,7 +1074,7 @@ layer/input.s: layer/input.cpp.s
 
 # target to generate assembly for a file
 layer/input.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/input.cpp.s
 .PHONY : layer/input.cpp.s
 
 layer/instancenorm.o: layer/instancenorm.cpp.o
@@ -1083,7 +1083,7 @@ layer/instancenorm.o: layer/instancenorm.cpp.o
 
 # target to build an object file
 layer/instancenorm.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
 .PHONY : layer/instancenorm.cpp.o
 
 layer/instancenorm.i: layer/instancenorm.cpp.i
@@ -1092,7 +1092,7 @@ layer/instancenorm.i: layer/instancenorm.cpp.i
 
 # target to preprocess a source file
 layer/instancenorm.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.i
 .PHONY : layer/instancenorm.cpp.i
 
 layer/instancenorm.s: layer/instancenorm.cpp.s
@@ -1101,7 +1101,7 @@ layer/instancenorm.s: layer/instancenorm.cpp.s
 
 # target to generate assembly for a file
 layer/instancenorm.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.s
 .PHONY : layer/instancenorm.cpp.s
 
 layer/interp.o: layer/interp.cpp.o
@@ -1110,7 +1110,7 @@ layer/interp.o: layer/interp.cpp.o
 
 # target to build an object file
 layer/interp.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
 .PHONY : layer/interp.cpp.o
 
 layer/interp.i: layer/interp.cpp.i
@@ -1119,7 +1119,7 @@ layer/interp.i: layer/interp.cpp.i
 
 # target to preprocess a source file
 layer/interp.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.i
 .PHONY : layer/interp.cpp.i
 
 layer/interp.s: layer/interp.cpp.s
@@ -1128,7 +1128,7 @@ layer/interp.s: layer/interp.cpp.s
 
 # target to generate assembly for a file
 layer/interp.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.s
 .PHONY : layer/interp.cpp.s
 
 layer/log.o: layer/log.cpp.o
@@ -1137,7 +1137,7 @@ layer/log.o: layer/log.cpp.o
 
 # target to build an object file
 layer/log.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
 .PHONY : layer/log.cpp.o
 
 layer/log.i: layer/log.cpp.i
@@ -1146,7 +1146,7 @@ layer/log.i: layer/log.cpp.i
 
 # target to preprocess a source file
 layer/log.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.i
 .PHONY : layer/log.cpp.i
 
 layer/log.s: layer/log.cpp.s
@@ -1155,7 +1155,7 @@ layer/log.s: layer/log.cpp.s
 
 # target to generate assembly for a file
 layer/log.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/log.cpp.s
 .PHONY : layer/log.cpp.s
 
 layer/lrn.o: layer/lrn.cpp.o
@@ -1164,7 +1164,7 @@ layer/lrn.o: layer/lrn.cpp.o
 
 # target to build an object file
 layer/lrn.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
 .PHONY : layer/lrn.cpp.o
 
 layer/lrn.i: layer/lrn.cpp.i
@@ -1173,7 +1173,7 @@ layer/lrn.i: layer/lrn.cpp.i
 
 # target to preprocess a source file
 layer/lrn.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.i
 .PHONY : layer/lrn.cpp.i
 
 layer/lrn.s: layer/lrn.cpp.s
@@ -1182,7 +1182,7 @@ layer/lrn.s: layer/lrn.cpp.s
 
 # target to generate assembly for a file
 layer/lrn.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.s
 .PHONY : layer/lrn.cpp.s
 
 layer/memorydata.o: layer/memorydata.cpp.o
@@ -1191,7 +1191,7 @@ layer/memorydata.o: layer/memorydata.cpp.o
 
 # target to build an object file
 layer/memorydata.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
 .PHONY : layer/memorydata.cpp.o
 
 layer/memorydata.i: layer/memorydata.cpp.i
@@ -1200,7 +1200,7 @@ layer/memorydata.i: layer/memorydata.cpp.i
 
 # target to preprocess a source file
 layer/memorydata.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.i
 .PHONY : layer/memorydata.cpp.i
 
 layer/memorydata.s: layer/memorydata.cpp.s
@@ -1209,7 +1209,7 @@ layer/memorydata.s: layer/memorydata.cpp.s
 
 # target to generate assembly for a file
 layer/memorydata.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.s
 .PHONY : layer/memorydata.cpp.s
 
 layer/mvn.o: layer/mvn.cpp.o
@@ -1218,7 +1218,7 @@ layer/mvn.o: layer/mvn.cpp.o
 
 # target to build an object file
 layer/mvn.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
 .PHONY : layer/mvn.cpp.o
 
 layer/mvn.i: layer/mvn.cpp.i
@@ -1227,7 +1227,7 @@ layer/mvn.i: layer/mvn.cpp.i
 
 # target to preprocess a source file
 layer/mvn.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.i
 .PHONY : layer/mvn.cpp.i
 
 layer/mvn.s: layer/mvn.cpp.s
@@ -1236,7 +1236,7 @@ layer/mvn.s: layer/mvn.cpp.s
 
 # target to generate assembly for a file
 layer/mvn.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.s
 .PHONY : layer/mvn.cpp.s
 
 layer/noop.o: layer/noop.cpp.o
@@ -1245,7 +1245,7 @@ layer/noop.o: layer/noop.cpp.o
 
 # target to build an object file
 layer/noop.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
 .PHONY : layer/noop.cpp.o
 
 layer/noop.i: layer/noop.cpp.i
@@ -1254,7 +1254,7 @@ layer/noop.i: layer/noop.cpp.i
 
 # target to preprocess a source file
 layer/noop.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.i
 .PHONY : layer/noop.cpp.i
 
 layer/noop.s: layer/noop.cpp.s
@@ -1263,7 +1263,7 @@ layer/noop.s: layer/noop.cpp.s
 
 # target to generate assembly for a file
 layer/noop.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/noop.cpp.s
 .PHONY : layer/noop.cpp.s
 
 layer/normalize.o: layer/normalize.cpp.o
@@ -1272,7 +1272,7 @@ layer/normalize.o: layer/normalize.cpp.o
 
 # target to build an object file
 layer/normalize.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
 .PHONY : layer/normalize.cpp.o
 
 layer/normalize.i: layer/normalize.cpp.i
@@ -1281,7 +1281,7 @@ layer/normalize.i: layer/normalize.cpp.i
 
 # target to preprocess a source file
 layer/normalize.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.i
 .PHONY : layer/normalize.cpp.i
 
 layer/normalize.s: layer/normalize.cpp.s
@@ -1290,7 +1290,7 @@ layer/normalize.s: layer/normalize.cpp.s
 
 # target to generate assembly for a file
 layer/normalize.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.s
 .PHONY : layer/normalize.cpp.s
 
 layer/packing.o: layer/packing.cpp.o
@@ -1299,7 +1299,7 @@ layer/packing.o: layer/packing.cpp.o
 
 # target to build an object file
 layer/packing.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
 .PHONY : layer/packing.cpp.o
 
 layer/packing.i: layer/packing.cpp.i
@@ -1308,7 +1308,7 @@ layer/packing.i: layer/packing.cpp.i
 
 # target to preprocess a source file
 layer/packing.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.i
 .PHONY : layer/packing.cpp.i
 
 layer/packing.s: layer/packing.cpp.s
@@ -1317,7 +1317,7 @@ layer/packing.s: layer/packing.cpp.s
 
 # target to generate assembly for a file
 layer/packing.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.s
 .PHONY : layer/packing.cpp.s
 
 layer/padding.o: layer/padding.cpp.o
@@ -1326,7 +1326,7 @@ layer/padding.o: layer/padding.cpp.o
 
 # target to build an object file
 layer/padding.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
 .PHONY : layer/padding.cpp.o
 
 layer/padding.i: layer/padding.cpp.i
@@ -1335,7 +1335,7 @@ layer/padding.i: layer/padding.cpp.i
 
 # target to preprocess a source file
 layer/padding.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.i
 .PHONY : layer/padding.cpp.i
 
 layer/padding.s: layer/padding.cpp.s
@@ -1344,7 +1344,7 @@ layer/padding.s: layer/padding.cpp.s
 
 # target to generate assembly for a file
 layer/padding.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.s
 .PHONY : layer/padding.cpp.s
 
 layer/permute.o: layer/permute.cpp.o
@@ -1353,7 +1353,7 @@ layer/permute.o: layer/permute.cpp.o
 
 # target to build an object file
 layer/permute.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
 .PHONY : layer/permute.cpp.o
 
 layer/permute.i: layer/permute.cpp.i
@@ -1362,7 +1362,7 @@ layer/permute.i: layer/permute.cpp.i
 
 # target to preprocess a source file
 layer/permute.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.i
 .PHONY : layer/permute.cpp.i
 
 layer/permute.s: layer/permute.cpp.s
@@ -1371,7 +1371,7 @@ layer/permute.s: layer/permute.cpp.s
 
 # target to generate assembly for a file
 layer/permute.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.s
 .PHONY : layer/permute.cpp.s
 
 layer/pooling.o: layer/pooling.cpp.o
@@ -1380,7 +1380,7 @@ layer/pooling.o: layer/pooling.cpp.o
 
 # target to build an object file
 layer/pooling.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
 .PHONY : layer/pooling.cpp.o
 
 layer/pooling.i: layer/pooling.cpp.i
@@ -1389,7 +1389,7 @@ layer/pooling.i: layer/pooling.cpp.i
 
 # target to preprocess a source file
 layer/pooling.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.i
 .PHONY : layer/pooling.cpp.i
 
 layer/pooling.s: layer/pooling.cpp.s
@@ -1398,7 +1398,7 @@ layer/pooling.s: layer/pooling.cpp.s
 
 # target to generate assembly for a file
 layer/pooling.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.s
 .PHONY : layer/pooling.cpp.s
 
 layer/power.o: layer/power.cpp.o
@@ -1407,7 +1407,7 @@ layer/power.o: layer/power.cpp.o
 
 # target to build an object file
 layer/power.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
 .PHONY : layer/power.cpp.o
 
 layer/power.i: layer/power.cpp.i
@@ -1416,7 +1416,7 @@ layer/power.i: layer/power.cpp.i
 
 # target to preprocess a source file
 layer/power.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.i
 .PHONY : layer/power.cpp.i
 
 layer/power.s: layer/power.cpp.s
@@ -1425,7 +1425,7 @@ layer/power.s: layer/power.cpp.s
 
 # target to generate assembly for a file
 layer/power.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/power.cpp.s
 .PHONY : layer/power.cpp.s
 
 layer/prelu.o: layer/prelu.cpp.o
@@ -1434,7 +1434,7 @@ layer/prelu.o: layer/prelu.cpp.o
 
 # target to build an object file
 layer/prelu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
 .PHONY : layer/prelu.cpp.o
 
 layer/prelu.i: layer/prelu.cpp.i
@@ -1443,7 +1443,7 @@ layer/prelu.i: layer/prelu.cpp.i
 
 # target to preprocess a source file
 layer/prelu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.i
 .PHONY : layer/prelu.cpp.i
 
 layer/prelu.s: layer/prelu.cpp.s
@@ -1452,7 +1452,7 @@ layer/prelu.s: layer/prelu.cpp.s
 
 # target to generate assembly for a file
 layer/prelu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.s
 .PHONY : layer/prelu.cpp.s
 
 layer/priorbox.o: layer/priorbox.cpp.o
@@ -1461,7 +1461,7 @@ layer/priorbox.o: layer/priorbox.cpp.o
 
 # target to build an object file
 layer/priorbox.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
 .PHONY : layer/priorbox.cpp.o
 
 layer/priorbox.i: layer/priorbox.cpp.i
@@ -1470,7 +1470,7 @@ layer/priorbox.i: layer/priorbox.cpp.i
 
 # target to preprocess a source file
 layer/priorbox.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.i
 .PHONY : layer/priorbox.cpp.i
 
 layer/priorbox.s: layer/priorbox.cpp.s
@@ -1479,7 +1479,7 @@ layer/priorbox.s: layer/priorbox.cpp.s
 
 # target to generate assembly for a file
 layer/priorbox.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.s
 .PHONY : layer/priorbox.cpp.s
 
 layer/proposal.o: layer/proposal.cpp.o
@@ -1488,7 +1488,7 @@ layer/proposal.o: layer/proposal.cpp.o
 
 # target to build an object file
 layer/proposal.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
 .PHONY : layer/proposal.cpp.o
 
 layer/proposal.i: layer/proposal.cpp.i
@@ -1497,7 +1497,7 @@ layer/proposal.i: layer/proposal.cpp.i
 
 # target to preprocess a source file
 layer/proposal.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.i
 .PHONY : layer/proposal.cpp.i
 
 layer/proposal.s: layer/proposal.cpp.s
@@ -1506,7 +1506,7 @@ layer/proposal.s: layer/proposal.cpp.s
 
 # target to generate assembly for a file
 layer/proposal.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.s
 .PHONY : layer/proposal.cpp.s
 
 layer/psroipooling.o: layer/psroipooling.cpp.o
@@ -1515,7 +1515,7 @@ layer/psroipooling.o: layer/psroipooling.cpp.o
 
 # target to build an object file
 layer/psroipooling.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
 .PHONY : layer/psroipooling.cpp.o
 
 layer/psroipooling.i: layer/psroipooling.cpp.i
@@ -1524,7 +1524,7 @@ layer/psroipooling.i: layer/psroipooling.cpp.i
 
 # target to preprocess a source file
 layer/psroipooling.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.i
 .PHONY : layer/psroipooling.cpp.i
 
 layer/psroipooling.s: layer/psroipooling.cpp.s
@@ -1533,7 +1533,7 @@ layer/psroipooling.s: layer/psroipooling.cpp.s
 
 # target to generate assembly for a file
 layer/psroipooling.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.s
 .PHONY : layer/psroipooling.cpp.s
 
 layer/quantize.o: layer/quantize.cpp.o
@@ -1542,7 +1542,7 @@ layer/quantize.o: layer/quantize.cpp.o
 
 # target to build an object file
 layer/quantize.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
 .PHONY : layer/quantize.cpp.o
 
 layer/quantize.i: layer/quantize.cpp.i
@@ -1551,7 +1551,7 @@ layer/quantize.i: layer/quantize.cpp.i
 
 # target to preprocess a source file
 layer/quantize.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.i
 .PHONY : layer/quantize.cpp.i
 
 layer/quantize.s: layer/quantize.cpp.s
@@ -1560,7 +1560,7 @@ layer/quantize.s: layer/quantize.cpp.s
 
 # target to generate assembly for a file
 layer/quantize.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.s
 .PHONY : layer/quantize.cpp.s
 
 layer/reduction.o: layer/reduction.cpp.o
@@ -1569,7 +1569,7 @@ layer/reduction.o: layer/reduction.cpp.o
 
 # target to build an object file
 layer/reduction.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
 .PHONY : layer/reduction.cpp.o
 
 layer/reduction.i: layer/reduction.cpp.i
@@ -1578,7 +1578,7 @@ layer/reduction.i: layer/reduction.cpp.i
 
 # target to preprocess a source file
 layer/reduction.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.i
 .PHONY : layer/reduction.cpp.i
 
 layer/reduction.s: layer/reduction.cpp.s
@@ -1587,7 +1587,7 @@ layer/reduction.s: layer/reduction.cpp.s
 
 # target to generate assembly for a file
 layer/reduction.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.s
 .PHONY : layer/reduction.cpp.s
 
 layer/relu.o: layer/relu.cpp.o
@@ -1596,7 +1596,7 @@ layer/relu.o: layer/relu.cpp.o
 
 # target to build an object file
 layer/relu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
 .PHONY : layer/relu.cpp.o
 
 layer/relu.i: layer/relu.cpp.i
@@ -1605,7 +1605,7 @@ layer/relu.i: layer/relu.cpp.i
 
 # target to preprocess a source file
 layer/relu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.i
 .PHONY : layer/relu.cpp.i
 
 layer/relu.s: layer/relu.cpp.s
@@ -1614,7 +1614,7 @@ layer/relu.s: layer/relu.cpp.s
 
 # target to generate assembly for a file
 layer/relu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.s
 .PHONY : layer/relu.cpp.s
 
 layer/reorg.o: layer/reorg.cpp.o
@@ -1623,7 +1623,7 @@ layer/reorg.o: layer/reorg.cpp.o
 
 # target to build an object file
 layer/reorg.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
 .PHONY : layer/reorg.cpp.o
 
 layer/reorg.i: layer/reorg.cpp.i
@@ -1632,7 +1632,7 @@ layer/reorg.i: layer/reorg.cpp.i
 
 # target to preprocess a source file
 layer/reorg.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.i
 .PHONY : layer/reorg.cpp.i
 
 layer/reorg.s: layer/reorg.cpp.s
@@ -1641,7 +1641,7 @@ layer/reorg.s: layer/reorg.cpp.s
 
 # target to generate assembly for a file
 layer/reorg.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.s
 .PHONY : layer/reorg.cpp.s
 
 layer/requantize.o: layer/requantize.cpp.o
@@ -1650,7 +1650,7 @@ layer/requantize.o: layer/requantize.cpp.o
 
 # target to build an object file
 layer/requantize.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
 .PHONY : layer/requantize.cpp.o
 
 layer/requantize.i: layer/requantize.cpp.i
@@ -1659,7 +1659,7 @@ layer/requantize.i: layer/requantize.cpp.i
 
 # target to preprocess a source file
 layer/requantize.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.i
 .PHONY : layer/requantize.cpp.i
 
 layer/requantize.s: layer/requantize.cpp.s
@@ -1668,7 +1668,7 @@ layer/requantize.s: layer/requantize.cpp.s
 
 # target to generate assembly for a file
 layer/requantize.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.s
 .PHONY : layer/requantize.cpp.s
 
 layer/reshape.o: layer/reshape.cpp.o
@@ -1677,7 +1677,7 @@ layer/reshape.o: layer/reshape.cpp.o
 
 # target to build an object file
 layer/reshape.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
 .PHONY : layer/reshape.cpp.o
 
 layer/reshape.i: layer/reshape.cpp.i
@@ -1686,7 +1686,7 @@ layer/reshape.i: layer/reshape.cpp.i
 
 # target to preprocess a source file
 layer/reshape.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.i
 .PHONY : layer/reshape.cpp.i
 
 layer/reshape.s: layer/reshape.cpp.s
@@ -1695,7 +1695,7 @@ layer/reshape.s: layer/reshape.cpp.s
 
 # target to generate assembly for a file
 layer/reshape.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.s
 .PHONY : layer/reshape.cpp.s
 
 layer/roipooling.o: layer/roipooling.cpp.o
@@ -1704,7 +1704,7 @@ layer/roipooling.o: layer/roipooling.cpp.o
 
 # target to build an object file
 layer/roipooling.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
 .PHONY : layer/roipooling.cpp.o
 
 layer/roipooling.i: layer/roipooling.cpp.i
@@ -1713,7 +1713,7 @@ layer/roipooling.i: layer/roipooling.cpp.i
 
 # target to preprocess a source file
 layer/roipooling.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.i
 .PHONY : layer/roipooling.cpp.i
 
 layer/roipooling.s: layer/roipooling.cpp.s
@@ -1722,7 +1722,7 @@ layer/roipooling.s: layer/roipooling.cpp.s
 
 # target to generate assembly for a file
 layer/roipooling.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.s
 .PHONY : layer/roipooling.cpp.s
 
 layer/scale.o: layer/scale.cpp.o
@@ -1731,7 +1731,7 @@ layer/scale.o: layer/scale.cpp.o
 
 # target to build an object file
 layer/scale.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
 .PHONY : layer/scale.cpp.o
 
 layer/scale.i: layer/scale.cpp.i
@@ -1740,7 +1740,7 @@ layer/scale.i: layer/scale.cpp.i
 
 # target to preprocess a source file
 layer/scale.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.i
 .PHONY : layer/scale.cpp.i
 
 layer/scale.s: layer/scale.cpp.s
@@ -1749,7 +1749,7 @@ layer/scale.s: layer/scale.cpp.s
 
 # target to generate assembly for a file
 layer/scale.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.s
 .PHONY : layer/scale.cpp.s
 
 layer/selu.o: layer/selu.cpp.o
@@ -1758,7 +1758,7 @@ layer/selu.o: layer/selu.cpp.o
 
 # target to build an object file
 layer/selu.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
 .PHONY : layer/selu.cpp.o
 
 layer/selu.i: layer/selu.cpp.i
@@ -1767,7 +1767,7 @@ layer/selu.i: layer/selu.cpp.i
 
 # target to preprocess a source file
 layer/selu.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.i
 .PHONY : layer/selu.cpp.i
 
 layer/selu.s: layer/selu.cpp.s
@@ -1776,7 +1776,7 @@ layer/selu.s: layer/selu.cpp.s
 
 # target to generate assembly for a file
 layer/selu.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/selu.cpp.s
 .PHONY : layer/selu.cpp.s
 
 layer/shufflechannel.o: layer/shufflechannel.cpp.o
@@ -1785,7 +1785,7 @@ layer/shufflechannel.o: layer/shufflechannel.cpp.o
 
 # target to build an object file
 layer/shufflechannel.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
 .PHONY : layer/shufflechannel.cpp.o
 
 layer/shufflechannel.i: layer/shufflechannel.cpp.i
@@ -1794,7 +1794,7 @@ layer/shufflechannel.i: layer/shufflechannel.cpp.i
 
 # target to preprocess a source file
 layer/shufflechannel.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.i
 .PHONY : layer/shufflechannel.cpp.i
 
 layer/shufflechannel.s: layer/shufflechannel.cpp.s
@@ -1803,7 +1803,7 @@ layer/shufflechannel.s: layer/shufflechannel.cpp.s
 
 # target to generate assembly for a file
 layer/shufflechannel.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.s
 .PHONY : layer/shufflechannel.cpp.s
 
 layer/sigmoid.o: layer/sigmoid.cpp.o
@@ -1812,7 +1812,7 @@ layer/sigmoid.o: layer/sigmoid.cpp.o
 
 # target to build an object file
 layer/sigmoid.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
 .PHONY : layer/sigmoid.cpp.o
 
 layer/sigmoid.i: layer/sigmoid.cpp.i
@@ -1821,7 +1821,7 @@ layer/sigmoid.i: layer/sigmoid.cpp.i
 
 # target to preprocess a source file
 layer/sigmoid.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.i
 .PHONY : layer/sigmoid.cpp.i
 
 layer/sigmoid.s: layer/sigmoid.cpp.s
@@ -1830,7 +1830,7 @@ layer/sigmoid.s: layer/sigmoid.cpp.s
 
 # target to generate assembly for a file
 layer/sigmoid.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.s
 .PHONY : layer/sigmoid.cpp.s
 
 layer/slice.o: layer/slice.cpp.o
@@ -1839,7 +1839,7 @@ layer/slice.o: layer/slice.cpp.o
 
 # target to build an object file
 layer/slice.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
 .PHONY : layer/slice.cpp.o
 
 layer/slice.i: layer/slice.cpp.i
@@ -1848,7 +1848,7 @@ layer/slice.i: layer/slice.cpp.i
 
 # target to preprocess a source file
 layer/slice.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.i
 .PHONY : layer/slice.cpp.i
 
 layer/slice.s: layer/slice.cpp.s
@@ -1857,7 +1857,7 @@ layer/slice.s: layer/slice.cpp.s
 
 # target to generate assembly for a file
 layer/slice.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.s
 .PHONY : layer/slice.cpp.s
 
 layer/softmax.o: layer/softmax.cpp.o
@@ -1866,7 +1866,7 @@ layer/softmax.o: layer/softmax.cpp.o
 
 # target to build an object file
 layer/softmax.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
 .PHONY : layer/softmax.cpp.o
 
 layer/softmax.i: layer/softmax.cpp.i
@@ -1875,7 +1875,7 @@ layer/softmax.i: layer/softmax.cpp.i
 
 # target to preprocess a source file
 layer/softmax.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.i
 .PHONY : layer/softmax.cpp.i
 
 layer/softmax.s: layer/softmax.cpp.s
@@ -1884,7 +1884,7 @@ layer/softmax.s: layer/softmax.cpp.s
 
 # target to generate assembly for a file
 layer/softmax.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.s
 .PHONY : layer/softmax.cpp.s
 
 layer/split.o: layer/split.cpp.o
@@ -1893,7 +1893,7 @@ layer/split.o: layer/split.cpp.o
 
 # target to build an object file
 layer/split.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
 .PHONY : layer/split.cpp.o
 
 layer/split.i: layer/split.cpp.i
@@ -1902,7 +1902,7 @@ layer/split.i: layer/split.cpp.i
 
 # target to preprocess a source file
 layer/split.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.i
 .PHONY : layer/split.cpp.i
 
 layer/split.s: layer/split.cpp.s
@@ -1911,7 +1911,7 @@ layer/split.s: layer/split.cpp.s
 
 # target to generate assembly for a file
 layer/split.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/split.cpp.s
 .PHONY : layer/split.cpp.s
 
 layer/squeeze.o: layer/squeeze.cpp.o
@@ -1920,7 +1920,7 @@ layer/squeeze.o: layer/squeeze.cpp.o
 
 # target to build an object file
 layer/squeeze.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
 .PHONY : layer/squeeze.cpp.o
 
 layer/squeeze.i: layer/squeeze.cpp.i
@@ -1929,7 +1929,7 @@ layer/squeeze.i: layer/squeeze.cpp.i
 
 # target to preprocess a source file
 layer/squeeze.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.i
 .PHONY : layer/squeeze.cpp.i
 
 layer/squeeze.s: layer/squeeze.cpp.s
@@ -1938,7 +1938,7 @@ layer/squeeze.s: layer/squeeze.cpp.s
 
 # target to generate assembly for a file
 layer/squeeze.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.s
 .PHONY : layer/squeeze.cpp.s
 
 layer/tanh.o: layer/tanh.cpp.o
@@ -1947,7 +1947,7 @@ layer/tanh.o: layer/tanh.cpp.o
 
 # target to build an object file
 layer/tanh.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
 .PHONY : layer/tanh.cpp.o
 
 layer/tanh.i: layer/tanh.cpp.i
@@ -1956,7 +1956,7 @@ layer/tanh.i: layer/tanh.cpp.i
 
 # target to preprocess a source file
 layer/tanh.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.i
 .PHONY : layer/tanh.cpp.i
 
 layer/tanh.s: layer/tanh.cpp.s
@@ -1965,7 +1965,7 @@ layer/tanh.s: layer/tanh.cpp.s
 
 # target to generate assembly for a file
 layer/tanh.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.s
 .PHONY : layer/tanh.cpp.s
 
 layer/threshold.o: layer/threshold.cpp.o
@@ -1974,7 +1974,7 @@ layer/threshold.o: layer/threshold.cpp.o
 
 # target to build an object file
 layer/threshold.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
 .PHONY : layer/threshold.cpp.o
 
 layer/threshold.i: layer/threshold.cpp.i
@@ -1983,7 +1983,7 @@ layer/threshold.i: layer/threshold.cpp.i
 
 # target to preprocess a source file
 layer/threshold.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.i
 .PHONY : layer/threshold.cpp.i
 
 layer/threshold.s: layer/threshold.cpp.s
@@ -1992,7 +1992,7 @@ layer/threshold.s: layer/threshold.cpp.s
 
 # target to generate assembly for a file
 layer/threshold.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.s
 .PHONY : layer/threshold.cpp.s
 
 layer/unaryop.o: layer/unaryop.cpp.o
@@ -2001,7 +2001,7 @@ layer/unaryop.o: layer/unaryop.cpp.o
 
 # target to build an object file
 layer/unaryop.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
 .PHONY : layer/unaryop.cpp.o
 
 layer/unaryop.i: layer/unaryop.cpp.i
@@ -2010,7 +2010,7 @@ layer/unaryop.i: layer/unaryop.cpp.i
 
 # target to preprocess a source file
 layer/unaryop.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.i
 .PHONY : layer/unaryop.cpp.i
 
 layer/unaryop.s: layer/unaryop.cpp.s
@@ -2019,7 +2019,7 @@ layer/unaryop.s: layer/unaryop.cpp.s
 
 # target to generate assembly for a file
 layer/unaryop.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.s
 .PHONY : layer/unaryop.cpp.s
 
 layer/x86/convolution_x86.o: layer/x86/convolution_x86.cpp.o
@@ -2028,7 +2028,7 @@ layer/x86/convolution_x86.o: layer/x86/convolution_x86.cpp.o
 
 # target to build an object file
 layer/x86/convolution_x86.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
 .PHONY : layer/x86/convolution_x86.cpp.o
 
 layer/x86/convolution_x86.i: layer/x86/convolution_x86.cpp.i
@@ -2037,7 +2037,7 @@ layer/x86/convolution_x86.i: layer/x86/convolution_x86.cpp.i
 
 # target to preprocess a source file
 layer/x86/convolution_x86.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.i
 .PHONY : layer/x86/convolution_x86.cpp.i
 
 layer/x86/convolution_x86.s: layer/x86/convolution_x86.cpp.s
@@ -2046,7 +2046,7 @@ layer/x86/convolution_x86.s: layer/x86/convolution_x86.cpp.s
 
 # target to generate assembly for a file
 layer/x86/convolution_x86.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.s
 .PHONY : layer/x86/convolution_x86.cpp.s
 
 layer/x86/convolutiondepthwise_x86.o: layer/x86/convolutiondepthwise_x86.cpp.o
@@ -2055,7 +2055,7 @@ layer/x86/convolutiondepthwise_x86.o: layer/x86/convolutiondepthwise_x86.cpp.o
 
 # target to build an object file
 layer/x86/convolutiondepthwise_x86.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
 .PHONY : layer/x86/convolutiondepthwise_x86.cpp.o
 
 layer/x86/convolutiondepthwise_x86.i: layer/x86/convolutiondepthwise_x86.cpp.i
@@ -2064,7 +2064,7 @@ layer/x86/convolutiondepthwise_x86.i: layer/x86/convolutiondepthwise_x86.cpp.i
 
 # target to preprocess a source file
 layer/x86/convolutiondepthwise_x86.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.i
 .PHONY : layer/x86/convolutiondepthwise_x86.cpp.i
 
 layer/x86/convolutiondepthwise_x86.s: layer/x86/convolutiondepthwise_x86.cpp.s
@@ -2073,7 +2073,7 @@ layer/x86/convolutiondepthwise_x86.s: layer/x86/convolutiondepthwise_x86.cpp.s
 
 # target to generate assembly for a file
 layer/x86/convolutiondepthwise_x86.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.s
 .PHONY : layer/x86/convolutiondepthwise_x86.cpp.s
 
 layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
@@ -2082,7 +2082,7 @@ layer/yolodetectionoutput.o: layer/yolodetectionoutput.cpp.o
 
 # target to build an object file
 layer/yolodetectionoutput.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
 .PHONY : layer/yolodetectionoutput.cpp.o
 
 layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
@@ -2091,7 +2091,7 @@ layer/yolodetectionoutput.i: layer/yolodetectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolodetectionoutput.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.i
 .PHONY : layer/yolodetectionoutput.cpp.i
 
 layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
@@ -2100,7 +2100,7 @@ layer/yolodetectionoutput.s: layer/yolodetectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolodetectionoutput.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.s
 .PHONY : layer/yolodetectionoutput.cpp.s
 
 layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
@@ -2109,7 +2109,7 @@ layer/yolov3detectionoutput.o: layer/yolov3detectionoutput.cpp.o
 
 # target to build an object file
 layer/yolov3detectionoutput.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
 .PHONY : layer/yolov3detectionoutput.cpp.o
 
 layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
@@ -2118,7 +2118,7 @@ layer/yolov3detectionoutput.i: layer/yolov3detectionoutput.cpp.i
 
 # target to preprocess a source file
 layer/yolov3detectionoutput.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.i
 .PHONY : layer/yolov3detectionoutput.cpp.i
 
 layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
@@ -2127,7 +2127,7 @@ layer/yolov3detectionoutput.s: layer/yolov3detectionoutput.cpp.s
 
 # target to generate assembly for a file
 layer/yolov3detectionoutput.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.s
 .PHONY : layer/yolov3detectionoutput.cpp.s
 
 mat.o: mat.cpp.o
@@ -2136,7 +2136,7 @@ mat.o: mat.cpp.o
 
 # target to build an object file
 mat.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.o
 .PHONY : mat.cpp.o
 
 mat.i: mat.cpp.i
@@ -2145,7 +2145,7 @@ mat.i: mat.cpp.i
 
 # target to preprocess a source file
 mat.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.i
 .PHONY : mat.cpp.i
 
 mat.s: mat.cpp.s
@@ -2154,7 +2154,7 @@ mat.s: mat.cpp.s
 
 # target to generate assembly for a file
 mat.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat.cpp.s
 .PHONY : mat.cpp.s
 
 mat_pixel.o: mat_pixel.cpp.o
@@ -2163,7 +2163,7 @@ mat_pixel.o: mat_pixel.cpp.o
 
 # target to build an object file
 mat_pixel.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
 .PHONY : mat_pixel.cpp.o
 
 mat_pixel.i: mat_pixel.cpp.i
@@ -2172,7 +2172,7 @@ mat_pixel.i: mat_pixel.cpp.i
 
 # target to preprocess a source file
 mat_pixel.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.i
 .PHONY : mat_pixel.cpp.i
 
 mat_pixel.s: mat_pixel.cpp.s
@@ -2181,7 +2181,7 @@ mat_pixel.s: mat_pixel.cpp.s
 
 # target to generate assembly for a file
 mat_pixel.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.s
 .PHONY : mat_pixel.cpp.s
 
 mat_pixel_resize.o: mat_pixel_resize.cpp.o
@@ -2190,7 +2190,7 @@ mat_pixel_resize.o: mat_pixel_resize.cpp.o
 
 # target to build an object file
 mat_pixel_resize.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
 .PHONY : mat_pixel_resize.cpp.o
 
 mat_pixel_resize.i: mat_pixel_resize.cpp.i
@@ -2199,7 +2199,7 @@ mat_pixel_resize.i: mat_pixel_resize.cpp.i
 
 # target to preprocess a source file
 mat_pixel_resize.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.i
 .PHONY : mat_pixel_resize.cpp.i
 
 mat_pixel_resize.s: mat_pixel_resize.cpp.s
@@ -2208,7 +2208,7 @@ mat_pixel_resize.s: mat_pixel_resize.cpp.s
 
 # target to generate assembly for a file
 mat_pixel_resize.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.s
 .PHONY : mat_pixel_resize.cpp.s
 
 modelbin.o: modelbin.cpp.o
@@ -2217,7 +2217,7 @@ modelbin.o: modelbin.cpp.o
 
 # target to build an object file
 modelbin.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
 .PHONY : modelbin.cpp.o
 
 modelbin.i: modelbin.cpp.i
@@ -2226,7 +2226,7 @@ modelbin.i: modelbin.cpp.i
 
 # target to preprocess a source file
 modelbin.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.i
 .PHONY : modelbin.cpp.i
 
 modelbin.s: modelbin.cpp.s
@@ -2235,7 +2235,7 @@ modelbin.s: modelbin.cpp.s
 
 # target to generate assembly for a file
 modelbin.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/modelbin.cpp.s
 .PHONY : modelbin.cpp.s
 
 net.o: net.cpp.o
@@ -2244,7 +2244,7 @@ net.o: net.cpp.o
 
 # target to build an object file
 net.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.o
 .PHONY : net.cpp.o
 
 net.i: net.cpp.i
@@ -2253,7 +2253,7 @@ net.i: net.cpp.i
 
 # target to preprocess a source file
 net.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.i
 .PHONY : net.cpp.i
 
 net.s: net.cpp.s
@@ -2262,7 +2262,7 @@ net.s: net.cpp.s
 
 # target to generate assembly for a file
 net.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/net.cpp.s
 .PHONY : net.cpp.s
 
 opencv.o: opencv.cpp.o
@@ -2271,7 +2271,7 @@ opencv.o: opencv.cpp.o
 
 # target to build an object file
 opencv.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.o
 .PHONY : opencv.cpp.o
 
 opencv.i: opencv.cpp.i
@@ -2280,7 +2280,7 @@ opencv.i: opencv.cpp.i
 
 # target to preprocess a source file
 opencv.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.i
 .PHONY : opencv.cpp.i
 
 opencv.s: opencv.cpp.s
@@ -2289,7 +2289,7 @@ opencv.s: opencv.cpp.s
 
 # target to generate assembly for a file
 opencv.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/opencv.cpp.s
 .PHONY : opencv.cpp.s
 
 option.o: option.cpp.o
@@ -2298,7 +2298,7 @@ option.o: option.cpp.o
 
 # target to build an object file
 option.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.o
 .PHONY : option.cpp.o
 
 option.i: option.cpp.i
@@ -2307,7 +2307,7 @@ option.i: option.cpp.i
 
 # target to preprocess a source file
 option.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.i
 .PHONY : option.cpp.i
 
 option.s: option.cpp.s
@@ -2316,7 +2316,7 @@ option.s: option.cpp.s
 
 # target to generate assembly for a file
 option.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/option.cpp.s
 .PHONY : option.cpp.s
 
 paramdict.o: paramdict.cpp.o
@@ -2325,7 +2325,7 @@ paramdict.o: paramdict.cpp.o
 
 # target to build an object file
 paramdict.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
 .PHONY : paramdict.cpp.o
 
 paramdict.i: paramdict.cpp.i
@@ -2334,7 +2334,7 @@ paramdict.i: paramdict.cpp.i
 
 # target to preprocess a source file
 paramdict.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.i
 .PHONY : paramdict.cpp.i
 
 paramdict.s: paramdict.cpp.s
@@ -2343,7 +2343,7 @@ paramdict.s: paramdict.cpp.s
 
 # target to generate assembly for a file
 paramdict.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/paramdict.cpp.s
 .PHONY : paramdict.cpp.s
 
 pipeline.o: pipeline.cpp.o
@@ -2352,7 +2352,7 @@ pipeline.o: pipeline.cpp.o
 
 # target to build an object file
 pipeline.cpp.o:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
 .PHONY : pipeline.cpp.o
 
 pipeline.i: pipeline.cpp.i
@@ -2361,7 +2361,7 @@ pipeline.i: pipeline.cpp.i
 
 # target to preprocess a source file
 pipeline.cpp.i:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.i
 .PHONY : pipeline.cpp.i
 
 pipeline.s: pipeline.cpp.s
@@ -2370,7 +2370,7 @@ pipeline.s: pipeline.cpp.s
 
 # target to generate assembly for a file
 pipeline.cpp.s:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(MAKE) -f ncnn_build/src/CMakeFiles/ncnn.dir/build.make ncnn_build/src/CMakeFiles/ncnn.dir/pipeline.cpp.s
 .PHONY : pipeline.cpp.s
 
 # Help Target
@@ -2641,6 +2641,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jetson/Downloads/Face-Detection-Module-For-jetson/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

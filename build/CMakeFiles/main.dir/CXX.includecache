@@ -150,17 +150,17 @@ vulkan/vulkan.h
 gpu.h
 ../3rdparty/ncnn/src/gpu.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.cpp
 UltraFace.hpp
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.hpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.hpp
 mat.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/mat.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/mat.h
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.hpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.hpp
 gpu.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/gpu.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/gpu.h
 net.h
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/net.h
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/net.h
 algorithm
 -
 iostream
@@ -170,10 +170,12 @@ string
 vector
 -
 
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/main.cpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/main.cpp
 UltraFace.hpp
-/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/src/UltraFace.hpp
+/home/jetson/Downloads/Face-Detection-Module-For-jetson/src/UltraFace.hpp
 iostream
+-
+string
 -
 opencv2/opencv.hpp
 -
