@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn
+# Install script for directory: /media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,11 +37,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/benchmark/cmake_install.cmake")
-  include("/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/cmake_install.cmake")
-  include("/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/tools/cmake_install.cmake")
+  include("/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/benchmark/cmake_install.cmake")
+  include("/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/cmake_install.cmake")
+  include("/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/tools/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src
+# Install script for directory: /media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,29 +37,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/libncnn.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/libncnn.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ncnn" TYPE FILE FILES
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer_type.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/layer_type_enum.h"
-    "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/platform.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/allocator.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/blob.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/command.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/cpu.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/gpu.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/layer_type.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/mat.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/modelbin.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/net.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/opencv.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/option.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/paramdict.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/pipeline.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/3rdparty/ncnn/src/benchmark.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/layer_type_enum.h"
+    "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/platform.h"
     )
 endif()
 
@@ -67,7 +72,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn/ncnn.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn/ncnn.cmake"
-         "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn.cmake")
+         "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn/ncnn-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -76,13 +81,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/CMakeFiles/Export/lib/cmake/ncnn/ncnn-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/home/jetson/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/build/ncnn_build/src/ncnnConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ncnn" TYPE FILE FILES "/media/seif_mostafa/2642DE4742DE1B7F/Face-Detection-Module-For-jetson/build/ncnn_build/src/ncnnConfig.cmake")
 endif()
 
